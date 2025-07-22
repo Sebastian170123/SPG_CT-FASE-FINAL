@@ -1,0 +1,416 @@
+{
+  "datosGenerales": {
+    "nombre": "Abigail Tutillo",
+    "edad": "20",
+    "cedula": "1755609474",
+    "fecha": "2023-11-09",
+    "instruccion": "Universitaria",
+    "jefeHogar": "Si",
+    "numHombres": "2",
+    "numMujeres": "3",
+    "numHijos": 5,
+    "telefono": "0959094951",
+    "correo": "joselinabigail_23tt@hotmail.com",
+    "ubiChacra": [
+      {
+        "provincia": "Pichincha",
+        "canton": "Cayambe",
+        "parroquia": "Juan Montalvo",
+        "comunidad": "Juan Montalvo",
+        "barrio": "Central",
+        "coordenadas": {
+          "latitud": "0.033333",
+          "longitud": "-78.15",
+          "altura": "2814 m"
+        },
+        "zona": "Urbano",
+        "clave": "0123456789354"
+      }
+    ],
+    "organizacionPert": "Transito Amaguaña",
+    "aniosCultiv": "20",
+    "numVeedurias": "14",
+    "produtCertif": "Si",
+    "tiposTerrenos": [
+      {
+        "tipTerreno": "Terreno Propio",
+        "terrenosRiego": "Si",
+        "areaTerreno": "1200"
+      }
+    ]
+  },
+
+  "dimensionPolitica": {
+    "nombre": "2.1 DIMENSIÓN POLÍTICA",
+    "puntajeTotal": 5,
+    "preg211": {
+      "nombre": "2.1.1¿Qué políticas agrarias que defienda y apoyen a los  productores agroecológicos conoce?  (se valora todo por 1 punto)",
+      "valor": 0,
+      "puntos": 0,
+      "respuesta": {
+        "label": "Constitución de la Republica del 2008",
+        "value": "0",
+        "puntaje": 1
+      }
+    },
+    "preg212": {
+      "nombre": "2.1.2¿Usted ha participado en la construcción de leyes y ordenanzas locales o nacionales?",
+      "valor": 0,
+      "puntos": 0,
+      "respuesta": { "label": "Si", "value": "1", "puntaje": 1 }
+    },
+    "preg213": {
+      "nombre": "2.1.3. ¿Porqué decidió producir agroecológicamente en su chacra? (1punto)",
+      "puntos": 0,
+      "items": [
+        {
+          "nombre": "Por Salud",
+          "respuesta": { "label": "si", "Value": "1", "puntaje": 0.2 }
+        },
+        {
+          "nombre": "No uso de Químicos",
+          "respuesta": { "label": "si", "Value": "1", "puntaje": 0.2 }
+        },
+        {
+          "nombre": "Para Generar Ingresos",
+          "respuesta": { "label": "si", "Value": "1", "puntaje": 0.2 }
+        },
+        {
+          "nombre": "Por cuidar el ambiente",
+          "respuesta": { "label": "si", "Value": "1", "puntaje": 0.2 }
+        },
+        {
+          "nombre": "Producción de Alimentos Sanos",
+          "respuesta": { "label": "si", "Value": "1", "puntaje": 0.2 }
+        }
+      ]
+    },
+    "preg214": {
+      "nombre": "2.1.4. ¿Cómo garantiza la soberanía alimentaria en su chakra? (cada respuesta equivale a 0,50 puntos)",
+      "puntos": 0,
+      "items": [
+        {
+          "nombre": "Tener y Sembrar Semillas",
+          "respuesta": { "label": "SI", "value": "0", "puntaje": 1 }
+        },
+        {
+          "nombre": "Diversidad de Productos",
+          "respuesta": { "label": "SI", "value": "0", "puntaje": 1 }
+        }
+      ]
+    },
+    "preg215": {
+      "nombre": "2.1.5 Conoce usted, qué es soberania alimentaria?",
+      "valor": 0,
+      "puntos": 0,
+      "respuesta": { "label": "SI", "value": "0", "puntaje": 1 }
+    }
+  },
+
+  "dimensionSocioOrganizativa": {
+    "nombre": " 2.2  DIMENSIÓN SOCIO-ORGANIZATIVA",
+    "puntajeTotal": 7,
+    "preg221": {
+      "nombre": "2.2.1¿Qué hace el productor y/o su familia para fortalecer a la organización agroecológica a la que pertenece? Minimo 4 ( cada respuesta equivale a 0,25 puntos)",
+      "puntos": 0,
+      "items": [
+        {
+          "nombre": "Reuniones",
+          "respuesta": { "label": "SI", "value": "0", "puntaje": 0.25 }
+        },
+        {
+          "nombre": "Capacitaciones",
+          "respuesta": { "label": "SI", "value": "0", "puntaje": 0.25 }
+        },
+        {
+          "nombre": "Mingas",
+          "respuesta": { "label": "SI", "value": "0", "puntaje": 0.25 }
+        },
+        {
+          "nombre": "Participación en ferias",
+          "respuesta": { "label": "SI", "value": "0", "puntaje": 0.25 }
+        },
+        { "nombre": "Aportes y comisiones", "respuesta": {} },
+        { "nombre": "Respetar acuerdos y resoluciones", "respuesta": {} }
+      ]
+    },
+    "preg222": {
+      "nombre": "2.2.2¿Ha ocupado algún cargo en la organización agroecológica o comunitaria",
+      "Puntos": 0,
+      "respuesta": { "label": "Si", "value": "1", "puntaje": 0.5 },
+      "subPreg222": {
+        "puntos": 0,
+        "respuesta": {
+          "label": "Administrador/a",
+          "Value": "0",
+          "puntaje": 0.5
+        }
+      }
+    },
+    "preg223": {
+      "nombre": "2.2.3 ¿Cómo Ud. se siente  realizando producción agroecológica?",
+      "puntos": 0,
+      "items": [
+        {
+          "nombre": "Respeta el ingreso económico po las ventas de sus productos",
+          "respuesta": { "label": "Satisfecho", "Value": "0", "puntaje": 0.25 }
+        },
+        {
+          "nombre": "Respecto a la carga de trabajo",
+          "respuesta": { "label": "Satisfecho", "Value": "0", "puntaje": 0.25 }
+        },
+        {
+          "nombre": "Respecto a la unión familiar",
+          "respuesta": { "label": "Satisfecho", "Value": "0", "puntaje": 0.25 }
+        },
+        {
+          "nombre": "Respecto a la calidad de vida",
+          "respuesta": {
+            "label": "Insatisfecho",
+            "Value": "3",
+            "puntaje": 0.25
+          }
+        }
+      ]
+    },
+    "preg224": {
+      "puntos": 0,
+      "incentivados": [
+        {
+          "nombre": "abigail",
+          "lugar": "cayambe",
+          "Parentesco": "Hermano/a",
+          "pertOrganz": "Si",
+          "label": "",
+          "value": "0",
+          "puntaje": 0.25,
+          "resultado": 0
+        },
+        {
+          "nombre": "abigail",
+          "lugar": "cayambe",
+          "Parentesco": "Hermano/a",
+          "pertOrganz": "Si",
+          "label": "",
+          "value": "0",
+          "puntaje": 0.25,
+          "resultado": 0
+        },
+        {
+          "nombre": "abigail",
+          "lugar": "cayambe",
+          "Parentesco": "Hermano/a",
+          "pertOrganz": "Si",
+          "label": "",
+          "value": "0",
+          "puntaje": 0.25,
+          "resultado": 0
+        },
+        {
+          "nombre": "abigail",
+          "lugar": "cayambe",
+          "Parentesco": "Hermano/a",
+          "pertOrganz": "Si",
+          "label": "",
+          "value": "0",
+          "puntaje": 0.25,
+          "resultado": 0
+        }
+      ]
+    },
+    "preg225": {
+      "nombre": "2.2.5 ¿Participa el productor y/o su familia en  capacitaciones  la respuesta es SI…..., señales cuáles y si asistió a todas 1 punto;",
+      "puntos": 0,
+      "items": [
+        {
+          "nombre": "Producción Agroecológica",
+          "respuesta": { "label": "Si", "Value": "1", "puntaje": 0.1 }
+        },
+        {
+          "nombre": "Manejos de Suelos",
+          "respuesta": { "label": "Si", "Value": "1", "puntaje": 0.1 }
+        },
+        {
+          "nombre": "Procesamiento de Alimentos",
+          "respuesta": { "label": "Si", "Value": "1", "puntaje": 0.1 }
+        },
+        {
+          "nombre": "Cosecha y Postcosecha",
+          "respuesta": { "label": "Si", "Value": "1", "puntaje": 0.1 }
+        },
+        {
+          "nombre": "Comercialización Asociativa",
+          "respuesta": { "label": "Si", "Value": "1", "puntaje": 0.1 }
+        },
+        {
+          "nombre": "Regristro y costo de Producción",
+          "respuesta": { "label": "Si", "Value": "1", "puntaje": 0.1 }
+        },
+        {
+          "nombre": "Político y Liderazgo",
+          "respuesta": { "label": "Si", "Value": "1", "puntaje": 0.1 }
+        },
+        {
+          "nombre": "Rol de Dirigentes",
+          "respuesta": { "label": "Si", "Value": "1", "puntaje": 0.1 }
+        },
+        {
+          "nombre": "Gira de Observación",
+          "respuesta": { "label": "Si", "Value": "1", "puntaje": 0.1 }
+        },
+        {
+          "nombre": "Seguimiento Mensual o Trimestral",
+          "respuesta": { "label": "Si", "Value": "1", "puntaje": 0.1 }
+        }
+      ]
+    },
+    "preg226": {
+      "nombre": "2.2.6 De los temas capacitados cuáles  ha puesto en práctica. (observar) si todos 2 puntos.",
+      "puntos": 0,
+      "items": [
+        {
+          "nombre": "Cortinas rompevientos",
+          "respuesta": { "label": "SI", "value": "0", "puntaje": 0.25 }
+        },
+        {
+          "nombre": "Elaboración de bioles y abonos",
+          "respuesta": { "label": "SI", "value": "0", "puntaje": 0.25 }
+        },
+        {
+          "nombre": "Procesamiento de Alimentos",
+          "respuesta": { "label": "SI", "value": "0", "puntaje": 0.25 }
+        },
+        {
+          "nombre": "Cosecha y postcosecha",
+          "respuesta": { "label": "SI", "value": "0", "puntaje": 0.25 }
+        },
+        {
+          "nombre": "Registros de produccion",
+          "respuesta": { "label": "SI", "value": "0", "puntaje": 0.25 }
+        },
+        {
+          "nombre": "Infraestructura adecuada para animales",
+          "respuesta": { "label": "SI", "value": "0", "puntaje": 0.25 }
+        },
+        {
+          "nombre": "Manejo de semillas",
+          "respuesta": { "label": "SI", "value": "0", "puntaje": 0.25 }
+        },
+        {
+          "nombre": "Podas en frutales o arbustos",
+          "respuesta": { "label": "SI", "value": "0", "puntaje": 0.25 }
+        }
+      ]
+    },
+    "preg227": "Si",
+    "preg228": { "label": "No", "value": 0 },
+    "subPreg228": "Por edad"
+  },
+
+  "dimensionCultural": {
+    "nombre": "2.3 DIMENSIÓN CULTURAL",
+    "puntajeTotal": 8,
+    "preg231": {
+      "nombre": "2.3.1 Conoceen en que fase lunar estamos?",
+      "puntos": 0,
+      "lunaDeHoy": "",
+      "respuesta": { "label": "SI", "value": "0", "puntaje": 1 },
+      "faseLunar": [
+        {
+          "lunaNuevaTierna": "Abonar",
+          "lunaMenguante": "Cosecha de tubérculos ganar peso",
+          "lunaCuartoCreciente": "Ingertos",
+          "lunaLlena": "Control de plagas y enfermedades"
+        },
+        {
+          "lunaNuevaTierna": "Abonar",
+          "lunaMenguante": "Cosecha de tubérculos ganar peso",
+          "lunaCuartoCreciente": "Ingertos",
+          "lunaLlena": "Control de plagas y enfermedades"
+        }
+      ]
+    },
+    "lunaDeHoy": "Luna Nueva/Tierna",
+    "preg232": {
+      "nombre": "2.3.2 ¿Práctica la minga familiar con su grupo u organización?",
+      "valor": 0,
+      "puntos": 0,
+      "respuesta": { "label": "SI", "Value": "0", "puntaje": 1 }
+    },
+    "preg233": {
+      "nombre": "2.3.3 ¿Diga 4 plantas medicinales y que dolencia  cura?.",
+      "puntos": 0,
+      "plantasC": [
+        {
+          "plantaMedic": {
+            "label": "Lengua de Suegra",
+            "value": "8",
+            "puntaje": 0.5
+          },
+          "cura": "Migrañas"
+        },
+        {
+          "plantaMedic": {
+            "label": "Lengua de Suegra",
+            "value": "8",
+            "puntaje": 0.5
+          },
+          "cura": "Migrañas"
+        },
+        {
+          "plantaMedic": {
+            "label": "Lengua de Suegra",
+            "value": "8",
+            "puntaje": 0.5
+          },
+          "cura": "Migrañas"
+        },
+        {
+          "plantaMedic": {
+            "label": "Lengua de Suegra",
+            "value": "8",
+            "puntaje": 0.5
+          },
+          "cura": "Migrañas"
+        }
+      ]
+    },
+    "preg234": {
+      "nombre": "2.3.4 ¿Qué semillas ancestrales o nativas  tiene en la chakra? mínimo 4 especies (Verificar)",
+      "puntos": 0,
+      "respuesta": [
+        { "label": "Chayote", "value": "6", "puntaje": 0.5 },
+        { "label": "Chayote", "value": "6", "puntaje": 0.5 },
+        { "label": "Chayote", "value": "6", "puntaje": 0.5 },
+        { "label": "Chayote", "value": "6", "puntaje": 0.5 }
+      ]
+    },
+    "preg235": {
+      "nombre": "2.3.5 ¿Cómo mantiene sus semilla ? ( verificar)",
+      "puntos": 0,
+      "respuesta": {
+        "label": "Siembra de semillas",
+        "value": "3",
+        "puntaje": 1
+      }
+    },
+    "preg236": {
+      "nombre": "2.3.6 ¿En qué actividades práctica el Randy-randy?.  (si realiza 1punto)",
+      "puntos": 0,
+      "items": [
+        {
+          "nombre": "Seleccione",
+          "respuesta": { "label": "Cosecha", "Value": "3", "puntaje": 0.33 }
+        },
+        {
+          "nombre": "Seleccione",
+          "respuesta": { "label": "Deshierba", "Value": "1", "puntaje": 0.33 }
+        },
+        {
+          "nombre": "Seleccione",
+          "respuesta": { "label": "Deshierba", "Value": "1", "puntaje": 0.33 }
+        }
+      ]
+    }
+  }
+}

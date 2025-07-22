@@ -1,0 +1,6567 @@
+[{
+  "_id": {
+    "$oid": "660aea6ceb4c8901a913b42f"
+  },
+  "datosVeedor": {
+    "nombre": "jeff sandoval",
+    "cedula": "1890736454",
+    "organizacionPert": "ASOPROK"
+  },
+  "datosGenerales": {
+    "nombre": "Abigail Tutillo",
+    "edad": "29",
+    "cedula": "1755609475",
+    "fecha": "2024-03-17",
+    "instruccion": "Universitaria",
+    "jefeHogar": "Si",
+    "numHombres": 1,
+    "numMujeres": 2,
+    "numHijos": 3,
+    "telefono": "0989525566",
+    "correo": "ABIGAIL@GMAIL.COM",
+    "ubiChacra": [
+      {
+        "provincia": "Pichincha",
+        "canton": "Cayambe",
+        "parroquia": "Azcásubi",
+        "comunidad": "comunidad",
+        "barrio": "barrio ",
+        "coordenadas": {
+          "latitud": "12.000",
+          "longitud": "230.000",
+          "altura": "1236"
+        },
+        "zona": "Urbano",
+        "clave": "12345678954"
+      }
+    ],
+    "organizacionPert": "Cuniburo",
+    "aniosCultiv": "5",
+    "numVeedurias": "2",
+    "produtCertif": "Si",
+    "tiposTerrenos": [
+      {
+        "tipTerreno": "Terreno Propio",
+        "terrenosRiego": "Si",
+        "areaTerreno": "1200",
+        "perimetroTotal": "1100",
+        "metroSembrado": "1000",
+        "nivelInclinacion": "0.37"
+      }
+    ],
+    "totalMetrosCuadrados": 1200
+  },
+  "dimensionEcologica": {
+    "nombre": " 2.4 DIMENSIÓN ECOLÓGICA 65 puntos",
+    "puntajeTotal": 52.7,
+    "preg241": {
+      "nombre": "2.4.1 Mapa parlante (diseño predial) actualizado. Verificar ",
+      "valor": 0,
+      "puntos": 2,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 2,
+        "disable": null
+      }
+    },
+    "preg242": {
+      "nombre": "2.4.2 Metros total de perimetro por lotes",
+      "puntos": 6.4,
+      "totalPeri": 1100,
+      "totalMetroSembrado": 1000,
+      "porcentajeMetrSembrados": 0
+    },
+    "preg243": {
+      "nombre": "2.4.3 ¿Realiza las podas? ",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 0.5,
+        "disable": null
+      },
+      "subpreg243": {
+        "nombre": "¿Qué hace con el material podado?",
+        "respuesta": {
+          "label": "Alimento para animales",
+          "value": "1",
+          "puntaje": 0.5,
+          "disable": null
+        }
+      },
+      "subsistemasSuelo": {
+        "nombre": "Indicar pendiente del terreno por lotes (%)"
+      }
+    },
+    "preg244": {
+      "nombre": "2.4.4 ¿Realiza prácticas de conservación de suelo en toda la parcela?",
+      "puntos": 1.1,
+      "respuesta": {
+        "label": "Terreno plano",
+        "value": "0",
+        "puntaje": 0.2,
+        "disable": null
+      },
+      "subPreg244": {
+        "nombre": "Especifique cada práctica",
+        "items": [
+          {
+            "nombre": "1.Terrazas de banco",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.18,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "2. Terrazas de formación lenta",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.18,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "3. Terrazas individuales",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.18,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "4. Barreras vivas",
+            "respuesta": {
+              "label": "No",
+              "value": "1",
+              "puntaje": 0,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "5. Zanjas de infiltración y desviación",
+            "respuesta": {
+              "label": "No",
+              "value": "1",
+              "puntaje": 0,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "6. Incorporación de abonos verdes",
+            "respuesta": {
+              "label": "No",
+              "value": "1",
+              "puntaje": 0,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "7. Dique de control de cárcavas",
+            "respuesta": {
+              "label": "No",
+              "value": "1",
+              "puntaje": 0,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "8. Surco en contorno",
+            "respuesta": {
+              "label": "No",
+              "value": "1",
+              "puntaje": 0,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "9. Acolchado",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.18,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "10. Incorpora abonos orgánicos (Bocashi,compost, humus, estiércoles etc)",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.18,
+              "disable": null
+            }
+          }
+        ]
+      }
+    },
+    "preg245": {
+      "nombre": "2.4.5 ¿Con que herramienta prepara el suelo de su parcela?",
+      "puntos": 1,
+      "respuesta": {
+        "label": " Motocultor",
+        "value": "1",
+        "puntaje": 1,
+        "disable": null
+      },
+      "subPreg245": {
+        "nombre": "¿Qué tipo de erosión del suelo presenta la parcela ? (Observación del veedor/a)",
+        "items": [
+          {
+            "nombre": "• Alta.- Es evidente arrastre de suelo por el viento, presencia de cárcavas y canalillos",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "• Media.- Erosión evidente pero poca el sistema agroforestal   amortigua la pérdida del suelo",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "• Baja.- No hay mayores señales de erosión.",
+            "respuesta": {
+              "label": "No",
+              "value": "1",
+              "puntaje": 0,
+              "disable": null
+            }
+          }
+        ]
+      }
+    },
+    "preg246": {
+      "nombre": "2.4.6 ¿Produce abonos en su parcela?: (observación del veedor)",
+      "puntos": 1.5,
+      "items": [
+        {
+          "nombre": "Majadeo",
+          "respuesta": {
+            "label": "No",
+            "value": "1",
+            "puntaje": 0,
+            "disable": null
+          }
+        },
+        {
+          "nombre": "Compost",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.25,
+            "disable": null
+          }
+        },
+        {
+          "nombre": "Bocashi",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.25,
+            "disable": null
+          }
+        },
+        {
+          "nombre": "Humus",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.25,
+            "disable": null
+          }
+        },
+        {
+          "nombre": "Colchón",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.25,
+            "disable": null
+          }
+        },
+        {
+          "nombre": "Desecho de podas",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.25,
+            "disable": null
+          }
+        },
+        {
+          "nombre": "Abonos verdes",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.25,
+            "disable": null
+          }
+        },
+        {
+          "nombre": "Otros",
+          "respuesta": {
+            "label": "No",
+            "value": "1",
+            "puntaje": 0,
+            "disable": null
+          }
+        }
+      ],
+      "subPreg246": {
+        "nombre": "¿Cúales?",
+        "respuesta": {
+          "label": null,
+          "value": null,
+          "puntaje": 0,
+          "disable": null
+        }
+      }
+    },
+    "preg247": {
+      "nombre": "2.4.7 ¿Cuánto de Materia orgánica tiene su suelo?.(Ver análisis de suelo)",
+      "puntos": 2,
+      "respuesta": "4",
+      "subPreg2471": {
+        "nombre": "¿Cuánto de abono produce en la parcela?",
+        "cantidad": 25,
+        "medidaDePeso": {
+          "label": "Arroba",
+          "value": "1",
+          "puntaje": 0.5,
+          "disable": null
+        },
+        "tiempo": {
+          "label": "Por Año",
+          "value": "1",
+          "puntaje": 0.5,
+          "disable": null
+        }
+      },
+      "subPreg2472": {
+        "nombre": "¿Cuánto de abono compra para abonar su parcela al año?",
+        "cuantoAboCompra": {
+          "label": "1 a 100",
+          "value": "0",
+          "puntaje": 0.5,
+          "disable": null
+        },
+        "medidaDePeso": {
+          "label": "Libras",
+          "value": "0",
+          "puntaje": 0.5,
+          "disable": null
+        }
+      }
+    },
+    "preg248": {
+      "nombre": "2.4.8 ¿Elabora y aplica biofertilizantes en la parcela?",
+      "puntos": 0.7,
+      "cual": [
+        {
+          "cual": {
+            "label": "Té de frutas",
+            "value": "1",
+            "puntaje": 0.67,
+            "disable": true
+          },
+          "cantidad": "12",
+          "frecuencia": "c/15 días"
+        }
+      ]
+    },
+    "preg249": {
+      "nombre": "2.4.9 ¿Cosecha nitrógeno del aire?",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 1,
+        "disable": null
+      },
+      "subPreg249": {
+        "nombre": "¿Cómo?",
+        "respuesta": {
+          "label": null,
+          "value": null,
+          "puntaje": 0,
+          "disable": null
+        }
+      }
+    },
+    "preg2410": {
+      "nombre": "2.4.10 Qué productos produce: Hortalizas, Frutales, Pastos, Cereales, plantas medicinales?",
+      "puntos": 0.9,
+      "areaProductosSembrados": 300,
+      "hortalizas": [
+        {
+          "producto": {
+            "label": "Albahaca",
+            "value": "2",
+            "puntaje": 0.2,
+            "disable": true
+          },
+          "area": "50",
+          "medida": "m2",
+          "cantidad": "20",
+          "semillaOPlantula": "Libras",
+          "tiempoSiembra": "c/15 días",
+          "tiempoCosecha": "Quincenal",
+          "puntaje": 0.2,
+          "porcentaje": 0
+        }
+      ],
+      "frutas": [
+        {
+          "producto": {
+            "label": "Granadilla",
+            "value": "10",
+            "puntaje": 0.2,
+            "disable": true
+          },
+          "area": "50",
+          "medida": "m2",
+          "cantidad": "7",
+          "semillaOPlantula": "Quintales",
+          "tiempoSiembra": "Semanal",
+          "tiempoCosecha": "Temporada",
+          "puntaje": 0.2,
+          "porcentaje": 0
+        }
+      ],
+      "pastos": [
+        {
+          "producto": {
+            "label": "Ray Grass Anual",
+            "value": "0",
+            "puntaje": 0.25,
+            "disable": true
+          },
+          "area": "100",
+          "medida": "m2",
+          "cantidad": "150",
+          "semillaOPlantula": "Plántulas",
+          "tiempoSiembra": "Mensual",
+          "tiempoCosecha": "Semanal",
+          "puntaje": 0.2,
+          "porcentaje": 0
+        }
+      ],
+      "cerealesYSeudocere": [
+        {
+          "producto": {
+            "label": "Amaranto",
+            "value": "0",
+            "puntaje": 0.2,
+            "disable": true
+          },
+          "area": "100",
+          "medida": "m2",
+          "cantidad": "500",
+          "semillaOPlantula": "N° semillas",
+          "tiempoSiembra": "Anual",
+          "tiempoCosecha": "Quincenal",
+          "puntaje": 0.2,
+          "porcentaje": 0
+        }
+      ],
+      "plantasMedicin": [],
+      "otrosOpcional": [],
+      "hortalizasTotal": 0.2,
+      "frutasTotal": 0.2,
+      "pastosTotal": 0.3,
+      "cerealeTotal": 0.2,
+      "planMedTotal": 0,
+      "opcionalesTotal": 0,
+      "metrosHortaliza": 50,
+      "metrosFrutas": 50,
+      "metrosPastos": 100,
+      "metrosCereales": 100,
+      "metrosPlantasMed": 0,
+      "metrosOpcionales": 0,
+      "totalProductos": 0.9,
+      "totalPorcentaje": 0
+    },
+    "preg2411": {
+      "nombre": "2.4.11 ¿Cuenta con un espacio adecuado o bodega para insumos, herramientas, equipos y/o maquinaria?",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 1,
+        "disable": null
+      }
+    },
+    "preg2412": {
+      "nombre": "2.4.12 ¿Cuales son los principales problemas en los cultivos?",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Enfermedades",
+        "value": "2",
+        "puntaje": 1,
+        "disable": null
+      }
+    },
+    "preg2413": {
+      "nombre": "2.4.13 ¿Tiene un registro de sus cultivos?",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 1,
+        "disable": null
+      }
+    },
+    "preg2414": {
+      "nombre": "2.4.14 ¿Hace rotación de cultivos?",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 1,
+        "disable": null
+      }
+    },
+    "preg2415": {
+      "nombre": "2.4.15 ¿Realiza asociación de cultivos?",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 1,
+        "disable": null
+      }
+    },
+    "preg2416": {
+      "nombre": "2.4.16 ¿Elabora y aplica biocontroladores contra plagas y enfermedades?",
+      "puntos": 2,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 1,
+        "disable": null
+      },
+      "subPreg2416": {
+        "nombre": "¿Qué producto?",
+        "respuesta": {
+          "label": null,
+          "value": null,
+          "puntaje": 0,
+          "disable": null
+        }
+      },
+      "subSubPreg2416": {
+        "nombre": "¿Qué plaga o enfermedad controla?",
+        "respuesta": {
+          "label": "Plagas",
+          "value": "1",
+          "puntaje": 1,
+          "disable": null
+        }
+      }
+    },
+    "preg2417": {
+      "nombre": "2.4.17 Tiene buenas prácticas de manipulación de los alimentos",
+      "puntos": 0,
+      "respuesta": {
+        "label": "No",
+        "value": "1",
+        "puntaje": 0,
+        "disable": null
+      }
+    },
+    "preg2418": {
+      "nombre": "2.4.18 Tiene espacio destinado para la post cosecha",
+      "puntos": 2,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 1,
+        "disable": null
+      },
+      "subPreg2418": {
+        "nombre": "¿Cual?",
+        "respuesta": {
+          "label": "Mesa y tanque de agua",
+          "value": "0",
+          "puntaje": 1,
+          "disable": null
+        }
+      }
+    },
+    "preg2419": {
+      "nombre": "2.4.19 ¿Existe control de calidad?",
+      "puntos": 3,
+      "items": [
+        {
+          "nombre": "a) Lavado, agua potable",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.6,
+            "disable": null
+          }
+        },
+        {
+          "nombre": "b) Selección",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.6,
+            "disable": null
+          }
+        },
+        {
+          "nombre": "d) Clasificación",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.6,
+            "disable": null
+          }
+        },
+        {
+          "nombre": "e) Peso",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.6,
+            "disable": null
+          }
+        },
+        {
+          "nombre": "f) Transporte en gavetas",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.6,
+            "disable": null
+          }
+        }
+      ]
+    },
+    "preg2420": {
+      "nombre": "2.4.20 ¿Cómo presenta sus productos ?",
+      "puntos": 0.8,
+      "items": [
+        {
+          "nombre": "a) Atado",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.16,
+            "disable": null
+          }
+        },
+        {
+          "nombre": "b) Enfundado",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.16,
+            "disable": null
+          }
+        },
+        {
+          "nombre": "c) En mallas",
+          "respuesta": {
+            "label": "No",
+            "value": "1",
+            "puntaje": 0,
+            "disable": null
+          }
+        },
+        {
+          "nombre": "d) En tarrinas",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.16,
+            "disable": null
+          }
+        },
+        {
+          "nombre": "e) Al granel",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.16,
+            "disable": null
+          }
+        },
+        {
+          "nombre": "f) Empacado al vacio",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.16,
+            "disable": null
+          }
+        }
+      ]
+    },
+    "preg2421": {
+      "nombre": "2.4.21 En caso de procesamiento de alimentos, observar, si realiza buenas prácticas de manipulación de alimentos (BPM) y, si dispone de espacios adecuados y  utensilios limpios.",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 1,
+        "disable": null
+      }
+    },
+    "preg2422": {
+      "nombre": "2.4.22 ¿Cuenta con bodega para productos cosechados?",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 1,
+        "disable": null
+      }
+    },
+    "preg2423": {
+      "nombre": "2.4.23 Número de especies (1000 m2 a 2000 m2 2 especies  (más de 2000m2 3 especies)",
+      "puntos": 0.3,
+      "especieA": [
+        {
+          "especie": {
+            "label": "Cuyes",
+            "value": "3",
+            "puntaje": 0.33,
+            "disable": true
+          },
+          "pequenios": 10,
+          "adultos": 30,
+          "cantidadEsp": 40,
+          "porcentajeEsp": 100,
+          "disable": false
+        }
+      ],
+      "cantidadTotal": 40
+    },
+    "preg2424": {
+      "nombre": "2.4.24 ¿Que productos de la chacra son destinados a la alimentacion de los animales?",
+      "puntos": 1,
+      "rGranos": {
+        "label": "Chia",
+        "value": "4",
+        "puntaje": 0.4,
+        "disable": null
+      },
+      "rPastos": {
+        "label": "Maralfalfa",
+        "value": "6",
+        "puntaje": 0.3,
+        "disable": false
+      },
+      "rRestos": {
+        "label": "Frutas",
+        "value": "1",
+        "puntaje": 0.3,
+        "disable": null
+      }
+    },
+    "preg2425": {
+      "nombre": "2.4.25 ¿Dispone de una infraestructura para los siguientes animales?",
+      "puntos": 2.4,
+      "items": [
+        {
+          "nombre": "Cuyes",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.6,
+            "disable": null
+          }
+        },
+        {
+          "nombre": "Chanchos",
+          "respuesta": {
+            "label": "No",
+            "value": "1",
+            "puntaje": 0,
+            "disable": null
+          }
+        },
+        {
+          "nombre": "Gallinas",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.6,
+            "disable": null
+          }
+        },
+        {
+          "nombre": "Vacas",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.6,
+            "disable": null
+          }
+        }
+      ],
+      "subPreg2425": {
+        "nombre": "Otros",
+        "respuesta": "otros "
+      }
+    },
+    "preg2426": {
+      "nombre": "2.4.26 Coloca barreras sanitarias (Plantas amargas, Cal a la entrada de los galpones o establos)",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 1,
+        "disable": null
+      }
+    },
+    "preg2427": {
+      "nombre": "2.4.27 ¿Cada cuánto tiempo limpia los establecimientos de los animales?",
+      "puntos": 0.5,
+      "respuesta": {
+        "label": "Cada mes",
+        "value": "1",
+        "puntaje": 0.5,
+        "disable": null
+      }
+    },
+    "preg2428": {
+      "nombre": "2.4.28 ¿Usa remedios caseros para curar a los animales?",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 1,
+        "disable": null
+      }
+    },
+    "preg2429": {
+      "nombre": "2.4.29 ¿Cosecha el estiércol de los animales?",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 1,
+        "disable": null
+      }
+    },
+    "encabezadoPreg2430": {
+      "nombre": "Subsistemas riego-humedad",
+      "puntos": 0,
+      "encaPreg2430": {
+        "nombre": "¿Conoce usted de donde viene el agua de riego?",
+        "respuesta": {
+          "label": null,
+          "value": null,
+          "puntaje": 0,
+          "disable": null
+        }
+      },
+      "subPregEnca2430": {
+        "nombre": "Nombre de la fuente:",
+        "respuesta": {
+          "label": null,
+          "value": null,
+          "puntaje": 0,
+          "disable": null
+        }
+      }
+    },
+    "preg2430": {
+      "nombre": "2.4.30 Que actividades realiza la junta de riego para proteger  las fuentes de agua.",
+      "puntos": 0,
+      "respuesta": {
+        "label": null,
+        "value": null,
+        "puntaje": 0,
+        "disable": null
+      }
+    },
+    "preg2431": {
+      "nombre": "2.4.31 ¿Qué acciones realizan para  el manejo de la basura en su vivienda.?",
+      "puntos": 0,
+      "items": [
+        {
+          "nombre": "a) Orgánica :",
+          "respuesta": {
+            "label": null,
+            "value": null,
+            "puntaje": 0,
+            "disable": null
+          }
+        },
+        {
+          "nombre": "b) Inorgánica:",
+          "respuesta": {
+            "label": null,
+            "value": null,
+            "puntaje": 0,
+            "disable": null
+          }
+        }
+      ]
+    },
+    "preg2432": {
+      "nombre": "2.4.32 ¿Cada cuánto tiempo tiene agua en su parcela?",
+      "puntos": 1.5,
+      "respuesta": {
+        "label": "c/ 8 días",
+        "value": "2",
+        "puntaje": 0.75,
+        "disable": null
+      },
+      "subPreg2432": {
+        "nombre": "¿Tiene reservorio?",
+        "respuesta": {
+          "label": "Tiene reservorio familiar",
+          "value": "0",
+          "puntaje": 0.75,
+          "disable": null
+        }
+      }
+    },
+    "preg2433": {
+      "nombre": "2.4.33 En caso de contar con riego ¿Cuenta con sistema de riego tecnificado?",
+      "puntos": 1.5,
+      "respuesta": {
+        "label": "Goteo",
+        "value": "1",
+        "puntaje": 1.5,
+        "disable": null
+      }
+    },
+    "preg2434": {
+      "nombre": "2.4.34 En caso de contar con riego por inundación ¿Qué tipo de prácticas realiza para evitar la erosión?",
+      "puntos": 0.8,
+      "respuesta": {
+        "label": "Curvas a nivel",
+        "value": "0",
+        "puntaje": 0.75,
+        "disable": null
+      }
+    },
+    "preg2435": {
+      "nombre": "2.4.35 En caso de contar con poco riego ¿Qué tipo de práctica de cosecha de agua realiza?",
+      "puntos": 0.8,
+      "respuesta": {
+        "label": "Zanjas de infiltraciones de agua",
+        "value": "2",
+        "puntaje": 0.75,
+        "disable": null
+      }
+    },
+    "preg2436": {
+      "nombre": "2.4.36 ¿Qué prácticas realiza usted para retener la humedad en el suelo? 1 práctica realizada?",
+      "puntos": 1.5,
+      "respuesta": {
+        "label": "Zanjas de infiltración",
+        "value": "3",
+        "puntaje": 1.5,
+        "disable": null
+      }
+    },
+    "preg2437": {
+      "nombre": "2.4.37 En caso de no contar con riego ¿Qué tipo de práctica de cosecha de agua práctica?",
+      "puntos": 2,
+      "respuesta": {
+        "label": "Recoleccion de agua lluvia de techos",
+        "value": "0",
+        "puntaje": 2,
+        "disable": null
+      }
+    },
+    "preg2438": {
+      "nombre": "2.4.38 En caso de no contar con riego ¿Qué tipo de abono aplica para mantener humedo el suelo?",
+      "puntos": 2,
+      "respuesta": {
+        "label": "Bocashi",
+        "value": "0",
+        "puntaje": 2,
+        "disable": null
+      }
+    },
+    "preg2439": {
+      "nombre": "2.4.39 Su cultivo es:",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Permanente",
+        "value": "1",
+        "puntaje": 1,
+        "disable": null
+      }
+    },
+    "preg2440": {
+      "nombre": "2.4.40 En caso de no contar con riego ¿Qué tipo de práctica de cosecha de agua realiza.",
+      "puntos": 0,
+      "respuesta": {
+        "label": null,
+        "value": null,
+        "puntaje": 0,
+        "disable": null
+      }
+    },
+    "preg2441": {
+      "nombre": "2.4.40 ¿Qué prácticas realiza  usted. para retener la humedad en el suelo?",
+      "puntos": 2,
+      "respuesta": {
+        "label": "Curvas de nivel",
+        "value": "3",
+        "puntaje": 2,
+        "disable": null
+      }
+    }
+  },
+  "dimensionEconomica": {
+    "nombre": "2.5 Dimensión Economica 15 Puntos",
+    "puntajeTotal": 4.6,
+    "preg251": {
+      "nombre": "2.5.1 ¿Cómo sabe si gana o pierde en su chacra?",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Tiene cuaderno de apuntes",
+        "value": 1,
+        "puntaje": 0.5,
+        "disable": null
+      },
+      "subpreg": {
+        "nombre": "¿Considera usted que la producción agroecológica es rentable?",
+        "respuesta": {
+          "label": "Si",
+          "value": 0,
+          "puntaje": 0.5,
+          "disable": null
+        },
+        "porque": "alguna respuesta"
+      }
+    },
+    "preg252": {
+      "nombre": "2.5.2 ¿Cuántos rubros son los que más comercializa?",
+      "puntos": 0.8,
+      "rubros": [
+        {
+          "productos": {
+            "label": "Hortalizas",
+            "value": 0,
+            "puntaje": 0.8,
+            "disable": true
+          },
+          "ingresosSemanales": 89,
+          "pieFinca": 1,
+          "feria": 24,
+          "canasta": 3,
+          "autoconsumo": 4,
+          "trueque": 3
+        }
+      ]
+    },
+    "preg253": {
+      "nombre": "2.5.3 ¿Cuáles son los productos procesados que usted elabora para consumo o venta?",
+      "puntos": 1.3,
+      "prodProcesados": [
+        {
+          "productos": {
+            "label": "Otros",
+            "value": 22,
+            "puntaje": 0.33,
+            "disable": true
+          },
+          "otrosProductos": "algun producto add",
+          "prodUtiliza": "Albahaca",
+          "insumosFuera": "condimentos "
+        }
+      ],
+      "subpreg": {
+        "nombre": "¿Su organización o comunidad tiene caja de ahorro y crédito?",
+        "respuesta": {
+          "label": "Si",
+          "value": 1,
+          "puntaje": 1,
+          "disable": null
+        }
+      },
+      "subpreg2": {
+        "nombre": "¿Para qué activad hace creditos?",
+        "respuesta": {
+          "label": "Ganaderia",
+          "value": 1,
+          "puntaje": 0,
+          "disable": null
+        }
+      }
+    },
+    "preg254": {
+      "nombre": "¿Qué actividad  desea hacer para mejorar la feria?",
+      "puntos": 0,
+      "respuesta": {
+        "label": "Charlas",
+        "value": 1,
+        "puntaje": 0,
+        "disable": null
+      }
+    },
+    "preg255": {
+      "nombre": "2.5.5 ¿De los ingresos que obtiene por venta de productos, en que los invierte?",
+      "puntos": 0.5,
+      "canastaFamiliar": [
+        {
+          "productos": {
+            "label": "Salud",
+            "value": 1,
+            "puntaje": 0.25,
+            "disable": null
+          },
+          "porcentaje": 8
+        }
+      ],
+      "Insumos": [
+        {
+          "productos": {
+            "label": "Herramientas",
+            "value": 1,
+            "puntaje": 0.25,
+            "disable": null
+          },
+          "porcentaje": 3
+        }
+      ]
+    },
+    "preg256": {
+      "nombre": "2.5.6 ¿En el último año, cuántos consumidores fieles o frecuentes ha identificado?",
+      "puntos": 1,
+      "consumidoresIdentificados": [
+        {
+          "nombreConsumidor": "algun fiel",
+          "lugarProcedencia": "cayambe ",
+          "productoCompra": {
+            "label": "Hortalizas y legumbres",
+            "value": 0,
+            "puntaje": 0
+          }
+        }
+      ]
+    }
+  },
+  "dimensionSocialCulturalPolitica": {
+    "dimensionPolitica21": {
+      "nombre": "2.1 DIMENSIÓN POLÍTICA",
+      "puntajeTotal": 4,
+      "preg211": {
+        "nombre": "2.1.1¿Qué políticas agrarias que defiendan y apoyen a los  productores agroecológicos conoce?",
+        "valor": 0,
+        "puntos": 1,
+        "respuesta": {
+          "label": "Ley Orgánica de Agrobiodiversidad, Semillas y Fomento de la Agricultura Sustentable.",
+          "value": "1",
+          "puntaje": 1,
+          "disable": null
+        }
+      },
+      "preg212": {
+        "nombre": "2.1.2¿Usted ha participado en la construcción de leyes y ordenanzas locales o nacionales?",
+        "valor": 0,
+        "puntos": 0,
+        "respuesta": {
+          "label": "No",
+          "value": "0",
+          "puntaje": 0,
+          "disable": null
+        }
+      },
+      "preg213": {
+        "nombre": "2.1.3. ¿Porqué decidió producir agroecológicamente en su chacra?",
+        "puntos": 1,
+        "items": [
+          {
+            "nombre": "Por Salud",
+            "respuesta": {
+              "label": "Si",
+              "value": "1",
+              "puntaje": 0.2,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Por el uso de Químicos",
+            "respuesta": {
+              "label": "Si",
+              "value": "1",
+              "puntaje": 0.2,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Para Generar Ingresos",
+            "respuesta": {
+              "label": "Si",
+              "value": "1",
+              "puntaje": 0.2,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Por cuidar el ambiente",
+            "respuesta": {
+              "label": "Si",
+              "value": "1",
+              "puntaje": 0.2,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Producción de Alimentos Sanos",
+            "respuesta": {
+              "label": "Si",
+              "value": "1",
+              "puntaje": 0.2,
+              "disable": null
+            }
+          }
+        ]
+      },
+      "preg214": {
+        "nombre": "2.1.4. ¿Cómo garantiza la soberanía alimentaria en su chacra?",
+        "puntos": 1,
+        "items": [
+          {
+            "nombre": "Tener y Sembrar Semillas",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.5,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Diversidad de Productos",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.5,
+              "disable": null
+            }
+          }
+        ]
+      },
+      "preg215": {
+        "nombre": "2.1.5 Conoce usted, qué es soberania alimentaria?",
+        "valor": 0,
+        "puntos": 1,
+        "respuesta": {
+          "label": "Si",
+          "value": "0",
+          "puntaje": 1,
+          "disable": null
+        }
+      }
+    },
+    "dimensionSocioOrganizativa22": {
+      "nombre": " 2.2  DIMENSIÓN SOCIO-ORGANIZATIVA",
+      "puntajeTotal": 5.9,
+      "preg221": {
+        "nombre": "2.2.1¿Qué hace el productor y/o su familia para fortalecer a la organización agroecológica a la que pertenece?",
+        "puntos": 1,
+        "items": [
+          {
+            "nombre": "Reuniones",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.25,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Capacitaciones",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.25,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Mingas",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.25,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Participación en ferias",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.25,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Aportes y comisiones",
+            "respuesta": {
+              "label": null,
+              "value": null,
+              "puntaje": 0,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Respetar acuerdos y resoluciones",
+            "respuesta": {
+              "label": null,
+              "value": null,
+              "puntaje": 0,
+              "disable": null
+            }
+          }
+        ]
+      },
+      "preg222": {
+        "nombre": "2.2.2¿Ha ocupado algún cargo en la organización agroecológica o comunitaria?",
+        "Puntos": 1,
+        "valor": 0,
+        "respuesta": {
+          "label": "Si",
+          "value": "1",
+          "puntaje": 0.5,
+          "disable": null
+        },
+        "subPreg222": {
+          "respuesta": {
+            "label": "Administrador/a",
+            "value": "5",
+            "puntaje": 0.5,
+            "disable": null
+          }
+        }
+      },
+      "preg223": {
+        "nombre": "2.2.3 ¿Cómo usted se siente realizando producción agroecológica?",
+        "puntos": 1,
+        "items": [
+          {
+            "nombre": "Respeta el ingreso económico por las ventas de sus productos",
+            "respuesta": {
+              "label": "Satisfecho",
+              "value": "0",
+              "puntaje": 0.25,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Respecto a la carga de trabajo",
+            "respuesta": {
+              "label": "Satisfecho",
+              "value": "0",
+              "puntaje": 0.25,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Respecto a la unión familiar",
+            "respuesta": {
+              "label": "Satisfecho",
+              "value": "0",
+              "puntaje": 0.25,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Respecto a la calidad de vida",
+            "respuesta": {
+              "label": "Satisfecho",
+              "value": "0",
+              "puntaje": 0.25,
+              "disable": null
+            }
+          }
+        ]
+      },
+      "preg224": {
+        "nombre": null,
+        "puntos": 0.3,
+        "incentivados": [
+          {
+            "nombre": "incentivado uno",
+            "lugar": "Cayambe ",
+            "Parentesco": "Amistad",
+            "pertOrganz": "Si",
+            "value": "0",
+            "puntaje": 0.25
+          }
+        ]
+      },
+      "preg225": {
+        "nombre": "2.2.5 ¿Participa el productor y/o su familia en capacitaciones ? Señale cuáles.",
+        "puntos": 0.8,
+        "items": [
+          {
+            "nombre": "Producción Agroecológica",
+            "respuesta": {
+              "label": "No",
+              "value": "0",
+              "puntaje": 0,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Manejos de Suelos",
+            "respuesta": {
+              "label": "Si",
+              "value": "1",
+              "puntaje": 0.1,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Procesamiento de Alimentos",
+            "respuesta": {
+              "label": "Si",
+              "value": "1",
+              "puntaje": 0.1,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Cosecha y Postcosecha",
+            "respuesta": {
+              "label": "Si",
+              "value": "1",
+              "puntaje": 0.1,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Comercialización Asociativa",
+            "respuesta": {
+              "label": "Si",
+              "value": "1",
+              "puntaje": 0.1,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Registro y costo de Producción",
+            "respuesta": {
+              "label": "Si",
+              "value": "1",
+              "puntaje": 0.1,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Político y Liderazgo",
+            "respuesta": {
+              "label": "Si",
+              "value": "1",
+              "puntaje": 0.1,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Rol de Dirigentes",
+            "respuesta": {
+              "label": "Si",
+              "value": "1",
+              "puntaje": 0.1,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Gira de Observación",
+            "respuesta": {
+              "label": "Si",
+              "value": "1",
+              "puntaje": 0.1,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Seguimiento Mensual o Trimestral",
+            "respuesta": {
+              "label": "No",
+              "value": "0",
+              "puntaje": 0,
+              "disable": null
+            }
+          }
+        ]
+      },
+      "preg226": {
+        "nombre": "2.2.6 ¿De los temas capacitados cuáles  ha puesto en práctica ?",
+        "puntos": 1.8,
+        "items": [
+          {
+            "nombre": "Cortinas rompevientos",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.25,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Elaboración de bioles y abonos",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.25,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Procesamiento de Alimentos",
+            "respuesta": {
+              "label": "No",
+              "value": "1",
+              "puntaje": 0,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Cosecha y postcosecha",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.25,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Registros de producción",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.25,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Infraestructura adecuada para animales",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.25,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Manejo de semillas",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.25,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Podas en frutales o arbustos",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.25,
+              "disable": null
+            }
+          }
+        ]
+      },
+      "preg227": "Si",
+      "preg228": {
+        "nombre": "",
+        "puntos": 0,
+        "respuesta": {
+          "label": "Si",
+          "value": "1",
+          "puntaje": 0,
+          "disable": null
+        },
+        "subPreg228": {
+          "nombre": "",
+          "respuesta": {
+            "label": "Bajo rendimiento y precios bajos",
+            "value": "2",
+            "puntaje": 0,
+            "disable": null
+          }
+        }
+      }
+    },
+    "dimensionCultural23": {
+      "nombre": "2.3 DIMENSIÓN CULTURAL",
+      "puntajeTotal": 5,
+      "preg231": {
+        "nombre": "2.3.1 ¿Conoce en que fase lunar estamos?",
+        "puntos": 1,
+        "respuesta": {
+          "label": "Si",
+          "value": "0",
+          "puntaje": 0.5,
+          "disable": null
+        },
+        "subPregunta231": {
+          "respuesta": {
+            "label": "Luna Nueva/Tierna",
+            "value": "0",
+            "puntaje": 0.5,
+            "disable": null
+          }
+        },
+        "faseLunar": [
+          {
+            "lunaNuevaTierna": "Abonar",
+            "lunaCuartoCreciente": "Ingertos",
+            "lunaLlena": "Abonar",
+            "lunaMenguante": "Cosecha de granos secos"
+          }
+        ]
+      },
+      "preg232": {
+        "nombre": "2.3.2 ¿Práctica la minga familiar con su grupo u organización?",
+        "valor": 0,
+        "puntos": 1,
+        "respuesta": {
+          "label": "Si",
+          "value": "0",
+          "puntaje": 1,
+          "disable": null
+        }
+      },
+      "preg233": {
+        "nombre": "2.3.3 ¿Mencione 4 plantas medicinales y que dolencia cura?.",
+        "puntos": 0.5,
+        "plantasC": [
+          {
+            "plantaMedic": {
+              "label": "Cola de Caballo",
+              "value": "3",
+              "puntaje": 0.5,
+              "disable": true
+            },
+            "cura": "Dolor de estómago"
+          }
+        ]
+      },
+      "preg234": {
+        "nombre": "2.3.4 ¿Qué semillas ancestrales o nativas tiene en la chacra? Máximo 4",
+        "puntos": 0.5,
+        "respuesta": [
+          {
+            "label": "Camote",
+            "value": "3",
+            "puntaje": 0.5,
+            "resultado": 0,
+            "disable": true
+          }
+        ]
+      },
+      "preg234Opcional": {
+        "nombre": "Agregar más semillas (opcional)",
+        "respuesta": []
+      },
+      "preg235": {
+        "nombre": "2.3.5 ¿Cómo mantiene sus semillas?",
+        "puntos": 1,
+        "respuesta": {
+          "label": "Intercambio de semillas",
+          "value": "0",
+          "puntaje": 1,
+          "disable": null
+        }
+      },
+      "preg236": {
+        "nombre": "2.3.6 ¿En qué actividades práctica el Randy-randy?",
+        "puntos": 1,
+        "items": [
+          {
+            "nombre": "Seleccione",
+            "respuesta": {
+              "label": "Aporque",
+              "value": "2",
+              "puntaje": 0.33,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Seleccione",
+            "respuesta": {
+              "label": "Aporque",
+              "value": "2",
+              "puntaje": 0.33,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Seleccione",
+            "respuesta": {
+              "label": "Deshierba",
+              "value": "1",
+              "puntaje": 0.33,
+              "disable": null
+            }
+          }
+        ]
+      }
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "660aea6ceb4c8901a913b430"
+  },
+  "datosVeedor": {
+    "nombre": "Mauro Reino ",
+    "cedula": "1723890453",
+    "organizacionPert": "Transito Amaguaña"
+  },
+  "datosGenerales": {
+    "nombre": "Melany Mosquera ",
+    "edad": "35",
+    "cedula": "1009877655",
+    "fecha": "2024-03-18",
+    "instruccion": "Secundaria",
+    "jefeHogar": "Si",
+    "numHombres": "3",
+    "numMujeres": "1",
+    "numHijos": 4,
+    "telefono": "0981914306",
+    "correo": "mela@gmail.com",
+    "ubiChacra": [
+      {
+        "provincia": "Cotopaxi",
+        "canton": "La Maná",
+        "parroquia": "El Triunfo",
+        "comunidad": "su comunidad",
+        "barrio": "su barrio",
+        "coordenadas": {
+          "latitud": "256.23.00",
+          "longitud": "25.0140.00",
+          "altura": "1477"
+        },
+        "zona": "Rural",
+        "clave": "1234567895511"
+      },
+      {
+        "provincia": "Cotopaxi",
+        "canton": "Latacunga",
+        "parroquia": "San Buenaventura",
+        "comunidad": "Buenaventura",
+        "barrio": "buenaventura",
+        "coordenadas": {
+          "latitud": "0.2555",
+          "longitud": "0.25556",
+          "altura": "1256"
+        },
+        "zona": "Urbano",
+        "clave": "1234567895511"
+      }
+    ],
+    "organizacionPert": "Red de Comercio Justo",
+    "aniosCultiv": "10",
+    "numVeedurias": "6",
+    "produtCertif": "Si",
+    "tiposTerrenos": [
+      {
+        "tipTerreno": "Terreno Propio",
+        "terrenosRiego": "Si",
+        "areaTerreno": "1236",
+        "perimetroTotal": "1200",
+        "metroSembrado": "1100",
+        "nivelInclinacion": "0.27"
+      },
+      {
+        "tipTerreno": "Terreno Arrendado",
+        "terrenosRiego": "No",
+        "areaTerreno": "120",
+        "perimetroTotal": "120",
+        "metroSembrado": "115",
+        "nivelInclinacion": "0.34"
+      }
+    ],
+    "totalMetrosCuadrados": 1356
+  },
+  "dimensionEcologica": {
+    "nombre": " 2.4 DIMENSIÓN ECOLÓGICA 65 puntos",
+    "puntajeTotal": 49.8,
+    "preg241": {
+      "nombre": "2.4.1 Mapa parlante (diseño predial) actualizado. Verificar ",
+      "valor": 0,
+      "puntos": 2,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 2
+      }
+    },
+    "preg242": {
+      "nombre": "2.4.2 Metros total de perimetro por lotes",
+      "puntos": 6.4,
+      "totalPeri": 1320,
+      "totalMetroSembrado": 1215,
+      "porcentajeMetrSembrados": 0
+    },
+    "preg243": {
+      "nombre": "2.4.3 ¿Realiza las podas? ",
+      "puntos": 0,
+      "respuesta": {
+        "label": "No",
+        "value": "1",
+        "puntaje": 0
+      },
+      "subpreg243": {
+        "nombre": "¿Qué hace con el material podado?",
+        "respuesta": {}
+      },
+      "subsistemasSuelo": {
+        "nombre": "Indicar pendiente del terreno por lotes (%)"
+      }
+    },
+    "preg244": {
+      "nombre": "2.4.4 ¿Realiza prácticas de conservación de suelo en toda la parcela?",
+      "puntos": 1.1,
+      "respuesta": {
+        "label": "Terreno plano",
+        "value": "0",
+        "puntaje": 0.2
+      },
+      "subPreg244": {
+        "nombre": "Especifique cada práctica",
+        "items": [
+          {
+            "nombre": "1.Terrazas de banco",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.18
+            }
+          },
+          {
+            "nombre": "2. Terrazas de formación lenta",
+            "respuesta": {
+              "label": "No",
+              "value": "1",
+              "puntaje": 0
+            }
+          },
+          {
+            "nombre": "3. Terrazas individuales",
+            "respuesta": {
+              "label": "No",
+              "value": "1",
+              "puntaje": 0
+            }
+          },
+          {
+            "nombre": "4. Barreras vivas",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.18
+            }
+          },
+          {
+            "nombre": "5. Zanjas de infiltración y desviación",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.18
+            }
+          },
+          {
+            "nombre": "6. Incorporación de abonos verdes",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.18
+            }
+          },
+          {
+            "nombre": "7. Dique de control de cárcavas",
+            "respuesta": {
+              "label": "No",
+              "value": "1",
+              "puntaje": 0
+            }
+          },
+          {
+            "nombre": "8. Surco en contorno",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.18
+            }
+          },
+          {
+            "nombre": "9. Acolchado",
+            "respuesta": {
+              "label": "No",
+              "value": "1",
+              "puntaje": 0
+            }
+          },
+          {
+            "nombre": "10. Incorpora abonos orgánicos (Bocashi,compost, humus, estiércoles etc)",
+            "respuesta": {
+              "label": "No",
+              "value": "1",
+              "puntaje": 0
+            }
+          }
+        ]
+      }
+    },
+    "preg245": {
+      "nombre": "2.4.5 ¿Con que herramienta prepara el suelo de su parcela?",
+      "puntos": 1,
+      "respuesta": {
+        "label": " Motocultor",
+        "value": "1",
+        "puntaje": 1
+      },
+      "subPreg245": {
+        "nombre": "¿Qué tipo de erosión del suelo presenta la parcela ? (Observación del veedor/a)",
+        "items": [
+          {
+            "nombre": "• Alta.- Es evidente arrastre de suelo por el viento, presencia de cárcavas y canalillos",
+            "respuesta": {
+              "label": "No",
+              "value": "1",
+              "puntaje": 0
+            }
+          },
+          {
+            "nombre": "• Media.- Erosión evidente pero poca el sistema agroforestal   amortigua la pérdida del suelo",
+            "respuesta": {
+              "label": "No",
+              "value": "1",
+              "puntaje": 0
+            }
+          },
+          {
+            "nombre": "• Baja.- No hay mayores señales de erosión.",
+            "respuesta": {
+              "label": "No",
+              "value": "1",
+              "puntaje": 0
+            }
+          }
+        ]
+      }
+    },
+    "preg246": {
+      "nombre": "2.4.6 ¿Produce abonos en su parcela?: (observación del veedor)",
+      "puntos": 1.8,
+      "items": [
+        {
+          "nombre": "Majadeo",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.25
+          }
+        },
+        {
+          "nombre": "Compost",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.25
+          }
+        },
+        {
+          "nombre": "Bocashi",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.25
+          }
+        },
+        {
+          "nombre": "Humus",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.25
+          }
+        },
+        {
+          "nombre": "Colchón",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.25
+          }
+        },
+        {
+          "nombre": "Desecho de podas",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.25
+          }
+        },
+        {
+          "nombre": "Abonos verdes",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.25
+          }
+        },
+        {
+          "nombre": "Otros",
+          "respuesta": {
+            "label": "No",
+            "value": "1",
+            "puntaje": 0
+          }
+        }
+      ],
+      "subPreg246": {
+        "nombre": "¿Cúales?",
+        "respuesta": {}
+      }
+    },
+    "preg247": {
+      "nombre": "2.4.7 ¿Cuánto de Materia orgánica tiene su suelo?.(Ver análisis de suelo)",
+      "puntos": 2,
+      "respuesta": "8",
+      "subPreg2471": {
+        "nombre": "¿Cuánto de abono produce en la parcela?",
+        "cantidad": "12",
+        "medidaDePeso": {
+          "label": "Quintales",
+          "value": "3",
+          "puntaje": 0.5
+        },
+        "tiempo": {
+          "label": "Por mes",
+          "value": "0",
+          "puntaje": 0.5
+        }
+      },
+      "subPreg2472": {
+        "nombre": "¿Cuánto de abono compra para abonar su parcela al año?",
+        "cuantoAboCompra": {
+          "label": "100 a 500",
+          "value": "1",
+          "puntaje": 0.5
+        },
+        "medidaDePeso": {
+          "label": "Quintales",
+          "value": "3",
+          "puntaje": 0.5
+        }
+      }
+    },
+    "preg248": {
+      "nombre": "2.4.8 ¿Elabora y aplica biofertilizantes en la parcela?",
+      "puntos": 0.7,
+      "cual": [
+        {
+          "cual": {
+            "label": "Biol",
+            "value": "0",
+            "puntaje": 0.67,
+            "disable": true
+          },
+          "cantidad": "3",
+          "frecuencia": "c/20 días"
+        }
+      ]
+    },
+    "preg249": {
+      "nombre": "2.4.9 ¿Cosecha nitrógeno del aire?",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 1
+      },
+      "subPreg249": {
+        "nombre": "¿Cómo?",
+        "respuesta": {}
+      }
+    },
+    "preg2410": {
+      "nombre": "2.4.10 Qué productos produce: Hortalizas, Frutales, Pastos, Cereales, plantas medicinales?",
+      "puntos": 0.4,
+      "areaProductosSembrados": 600,
+      "hortalizas": [
+        {
+          "producto": {
+            "label": "Cebolla paiteña",
+            "value": "8",
+            "puntaje": 0.2,
+            "disable": true
+          },
+          "area": "500",
+          "medida": "m2",
+          "cantidad": "8",
+          "semillaOPlantula": "Arrobas",
+          "tiempoSiembra": "c/25 días",
+          "tiempoCosecha": "Quincenal",
+          "puntaje": 0.2,
+          "porcentaje": 0
+        }
+      ],
+      "frutas": [
+        {
+          "producto": {
+            "label": "Babaco",
+            "value": "1",
+            "puntaje": 0.2,
+            "disable": true
+          },
+          "area": "100",
+          "medida": "m2",
+          "cantidad": "15",
+          "semillaOPlantula": "Plántulas",
+          "tiempoSiembra": "Quincenal",
+          "tiempoCosecha": "Quincenal",
+          "puntaje": 0.2,
+          "porcentaje": 0
+        }
+      ],
+      "pastos": [],
+      "cerealesYSeudocere": [],
+      "plantasMedicin": [],
+      "otrosOpcional": [],
+      "hortalizasTotal": 0.2,
+      "frutasTotal": 0.2,
+      "pastosTotal": 0,
+      "cerealeTotal": 0,
+      "planMedTotal": 0,
+      "opcionalesTotal": 0,
+      "metrosHortaliza": 500,
+      "metrosFrutas": 100,
+      "metrosPastos": 0,
+      "metrosCereales": 0,
+      "metrosPlantasMed": 0,
+      "metrosOpcionales": 0,
+      "totalProductos": 0.4,
+      "totalPorcentaje": 0
+    },
+    "preg2411": {
+      "nombre": "2.4.11 ¿Cuenta con un espacio adecuado o bodega para insumos, herramientas, equipos y/o maquinaria?",
+      "puntos": 0,
+      "respuesta": {
+        "label": "No",
+        "value": "1",
+        "puntaje": 0
+      }
+    },
+    "preg2412": {
+      "nombre": "2.4.12 ¿Cuales son los principales problemas en los cultivos?",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Enfermedades",
+        "value": "2",
+        "puntaje": 1
+      }
+    },
+    "preg2413": {
+      "nombre": "2.4.13 ¿Tiene un registro de sus cultivos?",
+      "puntos": 0,
+      "respuesta": {
+        "label": "No",
+        "value": "1",
+        "puntaje": 0
+      }
+    },
+    "preg2414": {
+      "nombre": "2.4.14 ¿Hace rotación de cultivos?",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 1
+      }
+    },
+    "preg2415": {
+      "nombre": "2.4.15 ¿Realiza asociación de cultivos?",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 1
+      }
+    },
+    "preg2416": {
+      "nombre": "2.4.16 ¿Elabora y aplica biocontroladores contra plagas y enfermedades?",
+      "puntos": 2,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 1
+      },
+      "subPreg2416": {
+        "nombre": "¿Qué producto?",
+        "respuesta": {}
+      },
+      "subSubPreg2416": {
+        "nombre": "¿Qué plaga o enfermedad controla?",
+        "respuesta": {
+          "label": "Enfermedades",
+          "value": "2",
+          "puntaje": 1
+        }
+      }
+    },
+    "preg2417": {
+      "nombre": "2.4.17 Tiene buenas prácticas de manipulación de los alimentos",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 1
+      }
+    },
+    "preg2418": {
+      "nombre": "2.4.18 Tiene espacio destinado para la post cosecha",
+      "puntos": 2,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 1
+      },
+      "subPreg2418": {
+        "nombre": "¿Cual?",
+        "respuesta": {
+          "label": "Mesa y tanque de agua",
+          "value": "0",
+          "puntaje": 1
+        }
+      }
+    },
+    "preg2419": {
+      "nombre": "2.4.19 ¿Existe control de calidad?",
+      "puntos": 2.4,
+      "items": [
+        {
+          "nombre": "a) Lavado, agua potable",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.6
+          }
+        },
+        {
+          "nombre": "b) Selección",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.6
+          }
+        },
+        {
+          "nombre": "d) Clasificación",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.6
+          }
+        },
+        {
+          "nombre": "e) Peso",
+          "respuesta": {
+            "label": "No",
+            "value": "1",
+            "puntaje": 0
+          }
+        },
+        {
+          "nombre": "f) Transporte en gavetas",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.6
+          }
+        }
+      ]
+    },
+    "preg2420": {
+      "nombre": "2.4.20 ¿Cómo presenta sus productos ?",
+      "puntos": 1,
+      "items": [
+        {
+          "nombre": "a) Atado",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.16
+          }
+        },
+        {
+          "nombre": "b) Enfundado",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.16
+          }
+        },
+        {
+          "nombre": "c) En mallas",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.16
+          }
+        },
+        {
+          "nombre": "d) En tarrinas",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.16
+          }
+        },
+        {
+          "nombre": "e) Al granel",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.16
+          }
+        },
+        {
+          "nombre": "f) Empacado al vacio",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.16
+          }
+        }
+      ]
+    },
+    "preg2421": {
+      "nombre": "2.4.21 En caso de procesamiento de alimentos, observar, si realiza buenas prácticas de manipulación de alimentos (BPM) y, si dispone de espacios adecuados y  utensilios limpios.",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 1
+      }
+    },
+    "preg2422": {
+      "nombre": "2.4.22 ¿Cuenta con bodega para productos cosechados?",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 1
+      }
+    },
+    "preg2423": {
+      "nombre": "2.4.23 Número de especies (1000 m2 a 2000 m2 2 especies  (más de 2000m2 3 especies)",
+      "puntos": 0.3,
+      "especieA": [
+        {
+          "especie": {
+            "label": "Vacas",
+            "value": "7",
+            "puntaje": 0.33,
+            "disable": true
+          },
+          "pequenios": "3",
+          "adultos": "5",
+          "cantidadEsp": 8,
+          "porcentajeEsp": 100,
+          "disable": false
+        }
+      ],
+      "cantidadTotal": 8
+    },
+    "preg2424": {
+      "nombre": "2.4.24 ¿Que productos de la chacra son destinados a la alimentacion de los animales?",
+      "puntos": 1,
+      "rGranos": {
+        "label": "Canguil",
+        "value": "2",
+        "puntaje": 0.4
+      },
+      "rPastos": {
+        "label": "Alfalfa",
+        "value": "4",
+        "puntaje": 0.3,
+        "disable": false
+      },
+      "rRestos": {
+        "label": "Podas",
+        "value": "2",
+        "puntaje": 0.3
+      }
+    },
+    "preg2425": {
+      "nombre": "2.4.25 ¿Dispone de una infraestructura para los siguientes animales?",
+      "puntos": 1.8,
+      "items": [
+        {
+          "nombre": "Cuyes",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.6
+          }
+        },
+        {
+          "nombre": "Chanchos",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.6
+          }
+        },
+        {
+          "nombre": "Gallinas",
+          "respuesta": {
+            "label": "No",
+            "value": "1",
+            "puntaje": 0
+          }
+        },
+        {
+          "nombre": "Vacas",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.6
+          }
+        }
+      ],
+      "subPreg2425": {
+        "nombre": "Otros",
+        "respuesta": ""
+      }
+    },
+    "preg2426": {
+      "nombre": "2.4.26 Coloca barreras sanitarias (Plantas amargas, Cal a la entrada de los galpones o establos)",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 1
+      }
+    },
+    "preg2427": {
+      "nombre": "2.4.27 ¿Cada cuánto tiempo limpia los establecimientos de los animales?",
+      "puntos": 0.3,
+      "respuesta": {
+        "label": "Cada 2 o 3 meses",
+        "value": "2",
+        "puntaje": 0.25
+      }
+    },
+    "preg2428": {
+      "nombre": "2.4.28 ¿Usa remedios caseros para curar a los animales?",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 1
+      }
+    },
+    "preg2429": {
+      "nombre": "2.4.29 ¿Cosecha el estiércol de los animales?",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 1
+      }
+    },
+    "encabezadoPreg2430": {
+      "nombre": "Subsistemas riego-humedad",
+      "puntos": 0,
+      "encaPreg2430": {
+        "nombre": "¿Conoce usted de donde viene el agua de riego?",
+        "respuesta": {
+          "label": "Si",
+          "value": "0",
+          "puntaje": 0
+        }
+      },
+      "subPregEnca2430": {
+        "nombre": "Nombre de la fuente:",
+        "respuesta": {}
+      }
+    },
+    "preg2430": {
+      "nombre": "2.4.30 Que actividades realiza la junta de riego para proteger  las fuentes de agua.",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Control de ganado",
+        "value": "1",
+        "puntaje": 1
+      }
+    },
+    "preg2431": {
+      "nombre": "2.4.31 ¿Qué acciones realizan para  el manejo de la basura en su vivienda.?",
+      "puntos": 1,
+      "items": [
+        {
+          "nombre": "a) Orgánica :",
+          "respuesta": {
+            "label": "Recicla en la parcela",
+            "value": "0",
+            "puntaje": 0.5
+          }
+        },
+        {
+          "nombre": "b) Inorgánica:",
+          "respuesta": {
+            "label": "Quema",
+            "value": "1",
+            "puntaje": 0.5
+          }
+        }
+      ]
+    },
+    "preg2432": {
+      "nombre": "2.4.32 ¿Cada cuánto tiempo tiene agua en su parcela?",
+      "puntos": 1.5,
+      "respuesta": {
+        "label": "c/ 2 días",
+        "value": "1",
+        "puntaje": 0.75
+      },
+      "subPreg2432": {
+        "nombre": "¿Tiene reservorio?",
+        "respuesta": {
+          "label": "Tiene reservorio familiar",
+          "value": "0",
+          "puntaje": 0.75
+        }
+      }
+    },
+    "preg2433": {
+      "nombre": "2.4.33 En caso de contar con riego ¿Cuenta con sistema de riego tecnificado?",
+      "puntos": 0,
+      "respuesta": {
+        "label": "Ninguno",
+        "value": "1",
+        "puntaje": 0
+      }
+    },
+    "preg2434": {
+      "nombre": "2.4.34 En caso de contar con riego por inundación ¿Qué tipo de prácticas realiza para evitar la erosión?",
+      "puntos": 0.8,
+      "respuesta": {
+        "label": "Curvas a nivel",
+        "value": "0",
+        "puntaje": 0.75
+      }
+    },
+    "preg2435": {
+      "nombre": "2.4.35 En caso de contar con poco riego ¿Qué tipo de práctica de cosecha de agua realiza?",
+      "puntos": 0.8,
+      "respuesta": {
+        "label": "Costrucción de curvas a nivel",
+        "value": "1",
+        "puntaje": 0.75
+      }
+    },
+    "preg2436": {
+      "nombre": "2.4.36 ¿Qué prácticas realiza usted para retener la humedad en el suelo? 1 práctica realizada?",
+      "puntos": 1.5,
+      "respuesta": {
+        "label": "Cobertura de pasto",
+        "value": "1",
+        "puntaje": 1.5
+      }
+    },
+    "preg2437": {
+      "nombre": "2.4.37 En caso de no contar con riego ¿Qué tipo de práctica de cosecha de agua práctica?",
+      "puntos": 2,
+      "respuesta": {
+        "label": "Zanjas de Infiltración",
+        "value": "1",
+        "puntaje": 2
+      }
+    },
+    "preg2438": {
+      "nombre": "2.4.38 En caso de no contar con riego ¿Qué tipo de abono aplica para mantener humedo el suelo?",
+      "puntos": 2,
+      "respuesta": {
+        "label": "Humus",
+        "value": "1",
+        "puntaje": 2
+      }
+    },
+    "preg2439": {
+      "nombre": "2.4.39 Su cultivo es:",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Permanente",
+        "value": "1",
+        "puntaje": 1
+      }
+    },
+    "preg2440": {
+      "nombre": "2.4.40 En caso de no contar con riego ¿Qué tipo de práctica de cosecha de agua realiza.",
+      "puntos": 0,
+      "respuesta": {}
+    },
+    "preg2441": {
+      "nombre": "2.4.40 ¿Qué prácticas realiza  usted. para retener la humedad en el suelo?",
+      "puntos": 2,
+      "respuesta": {
+        "label": "Cobertura con pastos",
+        "value": "1",
+        "puntaje": 2
+      }
+    }
+  },
+  "dimensionEconomica": {
+    "nombre": "2.5 Dimensión Economica 15 Puntos",
+    "puntajeTotal": 4.6,
+    "preg251": {
+      "nombre": "2.5.1 ¿Cómo sabe si gana o pierde en su chacra?",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Lleva registros de ingresos y gastos",
+        "value": 0,
+        "puntaje": 0.5
+      },
+      "subpreg": {
+        "nombre": "¿Considera usted que la producción agroecológica es rentable?",
+        "respuesta": {
+          "label": "Si",
+          "value": 0,
+          "puntaje": 0.5
+        },
+        "porque": "alguna respuesta "
+      }
+    },
+    "preg252": {
+      "nombre": "2.5.2 ¿Cuántos rubros son los que más comercializa?",
+      "puntos": 0.8,
+      "rubros": [
+        {
+          "productos": {
+            "label": "Lácteos",
+            "value": 3,
+            "puntaje": 0.8,
+            "disable": true
+          },
+          "autoconsumo": "2",
+          "canasta": "2",
+          "feria": "2",
+          "ingresosSemanales": "25",
+          "pieFinca": "3",
+          "trueque": "2"
+        }
+      ]
+    },
+    "preg253": {
+      "nombre": "2.5.3 ¿Cuáles son los productos procesados que usted elabora para consumo o venta?",
+      "puntos": 1.3,
+      "prodProcesados": [
+        {
+          "productos": {
+            "label": "Chochos con tostado",
+            "value": "3",
+            "puntaje": 0.33,
+            "disable": true
+          },
+          "otrosProductos": "",
+          "prodUtiliza": "Cebolla paiteña",
+          "insumosFuera": "condimentos "
+        }
+      ],
+      "subpreg": {
+        "nombre": "¿Su organización o comunidad tiene caja de ahorro y crédito?",
+        "respuesta": {
+          "label": "Si",
+          "value": 1,
+          "puntaje": 1
+        }
+      },
+      "subpreg2": {
+        "nombre": "¿Para qué activad hace creditos?",
+        "respuesta": {
+          "label": "Vivienda",
+          "value": 2,
+          "puntaje": 0
+        }
+      }
+    },
+    "preg254": {
+      "nombre": "¿Qué actividad  desea hacer para mejorar la feria?",
+      "puntos": 0,
+      "respuesta": {
+        "label": "Incentivar al productor/a",
+        "value": 0,
+        "puntaje": 0
+      }
+    },
+    "preg255": {
+      "nombre": "2.5.5 ¿De los ingresos que obtiene por venta de productos, en que los invierte?",
+      "puntos": 0.5,
+      "canastaFamiliar": [
+        {
+          "productos": {
+            "label": "Educación",
+            "value": 0,
+            "puntaje": 0.25
+          },
+          "porcentaje": "4"
+        }
+      ],
+      "Insumos": [
+        {
+          "productos": {
+            "label": "Herramientas",
+            "value": 1,
+            "puntaje": 0.25
+          },
+          "porcentaje": "2"
+        }
+      ]
+    },
+    "preg256": {
+      "nombre": "2.5.6 ¿En el último año, cuántos consumidores fieles o frecuentes ha identificado?",
+      "puntos": 1,
+      "consumidoresIdentificados": [
+        {
+          "nombreConsumidor": "consumidor fiel ",
+          "lugarProcedencia": "juan montalvo ",
+          "productoCompra": {
+            "label": "Frutas",
+            "value": 1,
+            "puntaje": 0
+          }
+        }
+      ]
+    }
+  },
+  "dimensionSocialCulturalPolitica": {
+    "dimensionPolitica21": {
+      "nombre": "2.1 DIMENSIÓN POLÍTICA",
+      "puntajeTotal": 2.6,
+      "preg211": {
+        "nombre": "2.1.1¿Qué políticas agrarias que defiendan y apoyen a los  productores agroecológicos conoce?",
+        "valor": 0,
+        "puntos": 1,
+        "respuesta": {
+          "label": "Ley Orgánica De Recursos Hídricos, Usos Y Aprovechamiento Del Agua",
+          "value": "3",
+          "puntaje": 1
+        }
+      },
+      "preg212": {
+        "nombre": "2.1.2¿Usted ha participado en la construcción de leyes y ordenanzas locales o nacionales?",
+        "valor": 0,
+        "puntos": 1,
+        "respuesta": {
+          "label": "Si",
+          "value": "1",
+          "puntaje": 1
+        }
+      },
+      "preg213": {
+        "nombre": "2.1.3. ¿Porqué decidió producir agroecológicamente en su chacra?",
+        "puntos": 0.6,
+        "items": [
+          {
+            "nombre": "Por Salud",
+            "respuesta": {
+              "label": "No",
+              "value": "0",
+              "puntaje": 0
+            }
+          },
+          {
+            "nombre": "Por el uso de Químicos",
+            "respuesta": {
+              "label": "No",
+              "value": "0",
+              "puntaje": 0
+            }
+          },
+          {
+            "nombre": "Para Generar Ingresos",
+            "respuesta": {
+              "label": "Si",
+              "value": "1",
+              "puntaje": 0.2
+            }
+          },
+          {
+            "nombre": "Por cuidar el ambiente",
+            "respuesta": {
+              "label": "Si",
+              "value": "1",
+              "puntaje": 0.2
+            }
+          },
+          {
+            "nombre": "Producción de Alimentos Sanos",
+            "respuesta": {
+              "label": "Si",
+              "value": "1",
+              "puntaje": 0.2
+            }
+          }
+        ]
+      },
+      "preg214": {
+        "nombre": "2.1.4. ¿Cómo garantiza la soberanía alimentaria en su chacra?",
+        "puntos": 0,
+        "items": [
+          {
+            "nombre": "Tener y Sembrar Semillas",
+            "respuesta": {
+              "label": "No",
+              "value": "1",
+              "puntaje": 0
+            }
+          },
+          {
+            "nombre": "Diversidad de Productos",
+            "respuesta": {
+              "label": "No",
+              "value": "1",
+              "puntaje": 0
+            }
+          }
+        ]
+      },
+      "preg215": {
+        "nombre": "2.1.5 Conoce usted, qué es soberania alimentaria?",
+        "valor": 0,
+        "puntos": 0,
+        "respuesta": {
+          "label": "No",
+          "value": "1",
+          "puntaje": 0
+        }
+      }
+    },
+    "dimensionSocioOrganizativa22": {
+      "nombre": " 2.2  DIMENSIÓN SOCIO-ORGANIZATIVA",
+      "puntajeTotal": 4.3,
+      "preg221": {
+        "nombre": "2.2.1¿Qué hace el productor y/o su familia para fortalecer a la organización agroecológica a la que pertenece?",
+        "puntos": 0.8,
+        "items": [
+          {
+            "nombre": "Reuniones",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.25
+            }
+          },
+          {
+            "nombre": "Capacitaciones",
+            "respuesta": {
+              "label": "No",
+              "value": "1",
+              "puntaje": 0
+            }
+          },
+          {
+            "nombre": "Mingas",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.25
+            }
+          },
+          {
+            "nombre": "Participación en ferias",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.25
+            }
+          },
+          {
+            "nombre": "Aportes y comisiones",
+            "respuesta": {
+              "label": "No",
+              "value": "1",
+              "puntaje": 0
+            }
+          },
+          {
+            "nombre": "Respetar acuerdos y resoluciones",
+            "respuesta": {
+              "label": "No",
+              "value": "1",
+              "puntaje": 0
+            }
+          }
+        ]
+      },
+      "preg222": {
+        "nombre": "2.2.2¿Ha ocupado algún cargo en la organización agroecológica o comunitaria?",
+        "Puntos": 1,
+        "valor": 0,
+        "respuesta": {
+          "label": "Si",
+          "value": "1",
+          "puntaje": 0.5
+        },
+        "subPreg222": {
+          "respuesta": {
+            "label": "Presidente/a",
+            "value": "0",
+            "puntaje": 0.5
+          }
+        }
+      },
+      "preg223": {
+        "nombre": "2.2.3 ¿Cómo usted se siente realizando producción agroecológica?",
+        "puntos": 1,
+        "items": [
+          {
+            "nombre": "Respeta el ingreso económico por las ventas de sus productos",
+            "respuesta": {
+              "label": "Poco Satisfecho",
+              "value": "1",
+              "puntaje": 0.25
+            }
+          },
+          {
+            "nombre": "Respecto a la carga de trabajo",
+            "respuesta": {
+              "label": "Poco Satisfecho",
+              "value": "1",
+              "puntaje": 0.25
+            }
+          },
+          {
+            "nombre": "Respecto a la unión familiar",
+            "respuesta": {
+              "label": "Poco Satisfecho",
+              "value": "1",
+              "puntaje": 0.25
+            }
+          },
+          {
+            "nombre": "Respecto a la calidad de vida",
+            "respuesta": {
+              "label": "Poco Satisfecho",
+              "value": "1",
+              "puntaje": 0.25
+            }
+          }
+        ]
+      },
+      "preg224": {
+        "puntos": 0,
+        "incentivados": []
+      },
+      "preg225": {
+        "nombre": "2.2.5 ¿Participa el productor y/o su familia en capacitaciones ? Señale cuáles.",
+        "puntos": 0.2,
+        "items": [
+          {
+            "nombre": "Producción Agroecológica",
+            "respuesta": {
+              "label": "Si",
+              "value": "1",
+              "puntaje": 0.1
+            }
+          },
+          {
+            "nombre": "Manejos de Suelos",
+            "respuesta": {
+              "label": "No",
+              "value": "0",
+              "puntaje": 0
+            }
+          },
+          {
+            "nombre": "Procesamiento de Alimentos",
+            "respuesta": {
+              "label": "Si",
+              "value": "1",
+              "puntaje": 0.1
+            }
+          },
+          {
+            "nombre": "Cosecha y Postcosecha",
+            "respuesta": {
+              "label": "No",
+              "value": "0",
+              "puntaje": 0
+            }
+          },
+          {
+            "nombre": "Comercialización Asociativa",
+            "respuesta": {
+              "label": "No",
+              "value": "0",
+              "puntaje": 0
+            }
+          },
+          {
+            "nombre": "Registro y costo de Producción",
+            "respuesta": {
+              "label": "No",
+              "value": "0",
+              "puntaje": 0
+            }
+          },
+          {
+            "nombre": "Político y Liderazgo",
+            "respuesta": {
+              "label": "No",
+              "value": "0",
+              "puntaje": 0
+            }
+          },
+          {
+            "nombre": "Rol de Dirigentes",
+            "respuesta": {
+              "label": "No",
+              "value": "0",
+              "puntaje": 0
+            }
+          },
+          {
+            "nombre": "Gira de Observación",
+            "respuesta": {
+              "label": "No",
+              "value": "0",
+              "puntaje": 0
+            }
+          },
+          {
+            "nombre": "Seguimiento Mensual o Trimestral",
+            "respuesta": {
+              "label": "No",
+              "value": "0",
+              "puntaje": 0
+            }
+          }
+        ]
+      },
+      "preg226": {
+        "nombre": "2.2.6 ¿De los temas capacitados cuáles  ha puesto en práctica ?",
+        "puntos": 1.3,
+        "items": [
+          {
+            "nombre": "Cortinas rompevientos",
+            "respuesta": {
+              "label": "No",
+              "value": "1",
+              "puntaje": 0
+            }
+          },
+          {
+            "nombre": "Elaboración de bioles y abonos",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.25
+            }
+          },
+          {
+            "nombre": "Procesamiento de Alimentos",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.25
+            }
+          },
+          {
+            "nombre": "Cosecha y postcosecha",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.25
+            }
+          },
+          {
+            "nombre": "Registros de producción",
+            "respuesta": {
+              "label": "No",
+              "value": "1",
+              "puntaje": 0
+            }
+          },
+          {
+            "nombre": "Infraestructura adecuada para animales",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.25
+            }
+          },
+          {
+            "nombre": "Manejo de semillas",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.25
+            }
+          },
+          {
+            "nombre": "Podas en frutales o arbustos",
+            "respuesta": {
+              "label": "No",
+              "value": "1",
+              "puntaje": 0
+            }
+          }
+        ]
+      },
+      "preg227": "Si",
+      "preg228": {
+        "nombre": "",
+        "puntos": 0,
+        "respuesta": {
+          "label": "Si",
+          "value": "1",
+          "puntaje": 0
+        },
+        "subPreg228": {
+          "nombre": "",
+          "respuesta": {
+            "label": "Abandonar la organización",
+            "value": "1",
+            "puntaje": 0
+          }
+        }
+      }
+    },
+    "dimensionCultural23": {
+      "nombre": "2.3 DIMENSIÓN CULTURAL",
+      "puntajeTotal": 4,
+      "preg231": {
+        "nombre": "2.3.1 ¿Conoce en que fase lunar estamos?",
+        "puntos": 1,
+        "respuesta": {
+          "label": "Si",
+          "value": "0",
+          "puntaje": 0.5
+        },
+        "subPregunta231": {
+          "respuesta": {
+            "label": "Luna Nueva/Tierna",
+            "value": "0",
+            "puntaje": 0.5
+          }
+        },
+        "faseLunar": []
+      },
+      "preg232": {
+        "nombre": "2.3.2 ¿Práctica la minga familiar con su grupo u organización?",
+        "valor": 0,
+        "puntos": 0,
+        "respuesta": {
+          "label": "No",
+          "value": "1",
+          "puntaje": 0
+        }
+      },
+      "preg233": {
+        "nombre": "2.3.3 ¿Mencione 4 plantas medicinales y que dolencia cura?.",
+        "puntos": 0.5,
+        "plantasC": [
+          {
+            "plantaMedic": {
+              "label": "Cedrón",
+              "value": "2",
+              "puntaje": 0.5,
+              "disable": true
+            },
+            "cura": "Dolor de huesos"
+          }
+        ]
+      },
+      "preg234": {
+        "nombre": "2.3.4 ¿Qué semillas ancestrales o nativas tiene en la chacra? Máximo 4",
+        "puntos": 0.5,
+        "respuesta": [
+          {
+            "label": "Arbeja",
+            "value": "2",
+            "puntaje": 0.5,
+            "disable": true
+          }
+        ]
+      },
+      "preg234Opcional": {
+        "nombre": "Agregar más semillas (opcional)",
+        "respuesta": []
+      },
+      "preg235": {
+        "nombre": "2.3.5 ¿Cómo mantiene sus semillas?",
+        "puntos": 1,
+        "respuesta": {
+          "label": "Selección de semillas",
+          "value": "2",
+          "puntaje": 1
+        }
+      },
+      "preg236": {
+        "nombre": "2.3.6 ¿En qué actividades práctica el Randy-randy?",
+        "puntos": 1,
+        "items": [
+          {
+            "nombre": "Seleccione",
+            "respuesta": {
+              "label": "Deshierba",
+              "value": "1",
+              "puntaje": 0.33
+            }
+          },
+          {
+            "nombre": "Seleccione",
+            "respuesta": {
+              "label": "Deshierba",
+              "value": "1",
+              "puntaje": 0.33
+            }
+          },
+          {
+            "nombre": "Seleccione",
+            "respuesta": {
+              "label": "Deshierba",
+              "value": "1",
+              "puntaje": 0.33
+            }
+          }
+        ]
+      }
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "660aea6ceb4c8901a913b431"
+  },
+  "datosVeedor": {
+    "nombre": "Dennis Lechon ",
+    "cedula": "3025649871",
+    "organizacionPert": "ASOPROGEME"
+  },
+  "datosGenerales": {
+    "nombre": "Naomi Conlago ",
+    "edad": "40",
+    "cedula": "1785324697",
+    "fecha": "2024-03-18",
+    "instruccion": "Primaria",
+    "jefeHogar": "Si",
+    "numHombres": "4",
+    "numMujeres": 0,
+    "numHijos": 4,
+    "telefono": "0974645244",
+    "correo": "noami@gmail.com",
+    "ubiChacra": [
+      {
+        "provincia": "Loja",
+        "canton": "Calvas",
+        "parroquia": "Cariamanga",
+        "comunidad": "Cariamanga",
+        "barrio": "Cariamanga ",
+        "coordenadas": {
+          "latitud": "0.00",
+          "longitud": "0.00",
+          "altura": "2563"
+        },
+        "zona": "Urbano",
+        "clave": "12386696442"
+      },
+      {
+        "provincia": "Loja",
+        "canton": "Calvas",
+        "parroquia": "Chile",
+        "comunidad": "chile",
+        "barrio": "chile",
+        "coordenadas": {
+          "latitud": "0.00",
+          "longitud": "0.000",
+          "altura": "2365"
+        },
+        "zona": "Urbano",
+        "clave": "174558230696"
+      },
+      {
+        "provincia": "Loja",
+        "canton": "Calvas",
+        "parroquia": "Colaisaca",
+        "comunidad": "Colaisaca",
+        "barrio": "Colaisaca",
+        "coordenadas": {
+          "latitud": "23.05000",
+          "longitud": "23.0144",
+          "altura": "5896"
+        },
+        "zona": "Rural",
+        "clave": "4585652586255"
+      }
+    ],
+    "organizacionPert": "Transito Amaguaña",
+    "aniosCultiv": "10",
+    "numVeedurias": "4",
+    "produtCertif": "Si",
+    "tiposTerrenos": [
+      {
+        "tipTerreno": "Terreno Arrendado",
+        "terrenosRiego": "Si",
+        "areaTerreno": "200",
+        "perimetroTotal": "175",
+        "metroSembrado": "170",
+        "nivelInclinacion": "0.8"
+      },
+      {
+        "tipTerreno": "Terreno al Partir",
+        "terrenosRiego": "No",
+        "areaTerreno": "300",
+        "perimetroTotal": "250",
+        "metroSembrado": "240",
+        "nivelInclinacion": "0.3"
+      },
+      {
+        "tipTerreno": "Terreno Propio",
+        "terrenosRiego": "Si",
+        "areaTerreno": "150",
+        "perimetroTotal": "140",
+        "metroSembrado": "120",
+        "nivelInclinacion": "0.5"
+      }
+    ],
+    "totalMetrosCuadrados": 650
+  },
+  "dimensionEcologica": {
+    "nombre": " 2.4 DIMENSIÓN ECOLÓGICA 65 puntos",
+    "puntajeTotal": 47.2,
+    "preg241": {
+      "nombre": "2.4.1 Mapa parlante (diseño predial) actualizado. Verificar ",
+      "valor": 0,
+      "puntos": 2,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 2
+      }
+    },
+    "preg242": {
+      "nombre": "2.4.2 Metros total de perimetro por lotes",
+      "puntos": 6.6,
+      "totalPeri": 565,
+      "totalMetroSembrado": 530,
+      "porcentajeMetrSembrados": 0
+    },
+    "preg243": {
+      "nombre": "2.4.3 ¿Realiza las podas? ",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 0.5
+      },
+      "subpreg243": {
+        "nombre": "¿Qué hace con el material podado?",
+        "respuesta": {
+          "label": "Abono",
+          "value": "0",
+          "puntaje": 0.5
+        }
+      },
+      "subsistemasSuelo": {
+        "nombre": "Indicar pendiente del terreno por lotes (%)"
+      }
+    },
+    "preg244": {
+      "nombre": "2.4.4 ¿Realiza prácticas de conservación de suelo en toda la parcela?",
+      "puntos": 1.5,
+      "respuesta": {
+        "label": "Terreno plano",
+        "value": "0",
+        "puntaje": 0.2
+      },
+      "subPreg244": {
+        "nombre": "Especifique cada práctica",
+        "items": [
+          {
+            "nombre": "1.Terrazas de banco",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.18
+            }
+          },
+          {
+            "nombre": "2. Terrazas de formación lenta",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.18
+            }
+          },
+          {
+            "nombre": "3. Terrazas individuales",
+            "respuesta": {
+              "label": "No",
+              "value": "1",
+              "puntaje": 0
+            }
+          },
+          {
+            "nombre": "4. Barreras vivas",
+            "respuesta": {
+              "label": "No",
+              "value": "1",
+              "puntaje": 0
+            }
+          },
+          {
+            "nombre": "5. Zanjas de infiltración y desviación",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.18
+            }
+          },
+          {
+            "nombre": "6. Incorporación de abonos verdes",
+            "respuesta": {
+              "label": "No",
+              "value": "1",
+              "puntaje": 0
+            }
+          },
+          {
+            "nombre": "7. Dique de control de cárcavas",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.18
+            }
+          },
+          {
+            "nombre": "8. Surco en contorno",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.18
+            }
+          },
+          {
+            "nombre": "9. Acolchado",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.18
+            }
+          },
+          {
+            "nombre": "10. Incorpora abonos orgánicos (Bocashi,compost, humus, estiércoles etc)",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.18
+            }
+          }
+        ]
+      }
+    },
+    "preg245": {
+      "nombre": "2.4.5 ¿Con que herramienta prepara el suelo de su parcela?",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Tractor con arado de disco y rastra…",
+        "value": "2",
+        "puntaje": 1
+      },
+      "subPreg245": {
+        "nombre": "¿Qué tipo de erosión del suelo presenta la parcela ? (Observación del veedor/a)",
+        "items": [
+          {
+            "nombre": "• Alta.- Es evidente arrastre de suelo por el viento, presencia de cárcavas y canalillos",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0
+            }
+          },
+          {
+            "nombre": "• Media.- Erosión evidente pero poca el sistema agroforestal   amortigua la pérdida del suelo",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0
+            }
+          },
+          {
+            "nombre": "• Baja.- No hay mayores señales de erosión.",
+            "respuesta": {
+              "label": "No",
+              "value": "1",
+              "puntaje": 0
+            }
+          }
+        ]
+      }
+    },
+    "preg246": {
+      "nombre": "2.4.6 ¿Produce abonos en su parcela?: (observación del veedor)",
+      "puntos": 1.3,
+      "items": [
+        {
+          "nombre": "Majadeo",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.25
+          }
+        },
+        {
+          "nombre": "Compost",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.25
+          }
+        },
+        {
+          "nombre": "Bocashi",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.25
+          }
+        },
+        {
+          "nombre": "Humus",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.25
+          }
+        },
+        {
+          "nombre": "Colchón",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.25
+          }
+        },
+        {
+          "nombre": "Desecho de podas",
+          "respuesta": {
+            "label": "No",
+            "value": "1",
+            "puntaje": 0
+          }
+        },
+        {
+          "nombre": "Abonos verdes",
+          "respuesta": {
+            "label": "No",
+            "value": "1",
+            "puntaje": 0
+          }
+        },
+        {
+          "nombre": "Otros",
+          "respuesta": {
+            "label": "No",
+            "value": "1",
+            "puntaje": 0
+          }
+        }
+      ],
+      "subPreg246": {
+        "nombre": "¿Cúales?",
+        "respuesta": {}
+      }
+    },
+    "preg247": {
+      "nombre": "2.4.7 ¿Cuánto de Materia orgánica tiene su suelo?.(Ver análisis de suelo)",
+      "puntos": 2,
+      "respuesta": "13",
+      "subPreg2471": {
+        "nombre": "¿Cuánto de abono produce en la parcela?",
+        "cantidad": "10",
+        "medidaDePeso": {
+          "label": "Arroba",
+          "value": "1",
+          "puntaje": 0.5
+        },
+        "tiempo": {
+          "label": "Por mes",
+          "value": "0",
+          "puntaje": 0.5
+        }
+      },
+      "subPreg2472": {
+        "nombre": "¿Cuánto de abono compra para abonar su parcela al año?",
+        "cuantoAboCompra": {
+          "label": "500 a 1000",
+          "value": "2",
+          "puntaje": 0.5
+        },
+        "medidaDePeso": {
+          "label": "Camiones",
+          "value": "2",
+          "puntaje": 0.5
+        }
+      }
+    },
+    "preg248": {
+      "nombre": "2.4.8 ¿Elabora y aplica biofertilizantes en la parcela?",
+      "puntos": 0.7,
+      "cual": [
+        {
+          "cual": {
+            "label": "Té de hierbas medicinales",
+            "value": "2",
+            "puntaje": 0.67,
+            "disable": true
+          },
+          "cantidad": "21",
+          "frecuencia": "c/20 días"
+        }
+      ]
+    },
+    "preg249": {
+      "nombre": "2.4.9 ¿Cosecha nitrógeno del aire?",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 1
+      },
+      "subPreg249": {
+        "nombre": "¿Cómo?",
+        "respuesta": {}
+      }
+    },
+    "preg2410": {
+      "nombre": "2.4.10 Qué productos produce: Hortalizas, Frutales, Pastos, Cereales, plantas medicinales?",
+      "puntos": 0.2,
+      "areaProductosSembrados": 500,
+      "hortalizas": [],
+      "frutas": [
+        {
+          "producto": {
+            "label": "Frutilla",
+            "value": "8",
+            "puntaje": 0.2,
+            "disable": true
+          },
+          "area": "500",
+          "medida": "m2",
+          "cantidad": "290",
+          "semillaOPlantula": "Plántulas",
+          "tiempoSiembra": "Mensual",
+          "tiempoCosecha": "c/semana",
+          "puntaje": 0.2,
+          "porcentaje": 0
+        }
+      ],
+      "pastos": [],
+      "cerealesYSeudocere": [],
+      "plantasMedicin": [],
+      "otrosOpcional": [],
+      "hortalizasTotal": 0,
+      "frutasTotal": 0.2,
+      "pastosTotal": 0,
+      "cerealeTotal": 0,
+      "planMedTotal": 0,
+      "opcionalesTotal": 0,
+      "metrosHortaliza": 0,
+      "metrosFrutas": 500,
+      "metrosPastos": 0,
+      "metrosCereales": 0,
+      "metrosPlantasMed": 0,
+      "metrosOpcionales": 0,
+      "totalProductos": 0.2,
+      "totalPorcentaje": 0
+    },
+    "preg2411": {
+      "nombre": "2.4.11 ¿Cuenta con un espacio adecuado o bodega para insumos, herramientas, equipos y/o maquinaria?",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 1
+      }
+    },
+    "preg2412": {
+      "nombre": "2.4.12 ¿Cuales son los principales problemas en los cultivos?",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Plagas",
+        "value": "1",
+        "puntaje": 1
+      }
+    },
+    "preg2413": {
+      "nombre": "2.4.13 ¿Tiene un registro de sus cultivos?",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 1
+      }
+    },
+    "preg2414": {
+      "nombre": "2.4.14 ¿Hace rotación de cultivos?",
+      "puntos": 0,
+      "respuesta": {
+        "label": "No",
+        "value": "1",
+        "puntaje": 0
+      }
+    },
+    "preg2415": {
+      "nombre": "2.4.15 ¿Realiza asociación de cultivos?",
+      "puntos": 0,
+      "respuesta": {
+        "label": "No",
+        "value": "1",
+        "puntaje": 0
+      }
+    },
+    "preg2416": {
+      "nombre": "2.4.16 ¿Elabora y aplica biocontroladores contra plagas y enfermedades?",
+      "puntos": 0,
+      "respuesta": {
+        "label": "No",
+        "value": "1",
+        "puntaje": 0
+      },
+      "subPreg2416": {
+        "nombre": "¿Qué producto?",
+        "respuesta": {}
+      },
+      "subSubPreg2416": {
+        "nombre": "¿Qué plaga o enfermedad controla?",
+        "respuesta": {}
+      }
+    },
+    "preg2417": {
+      "nombre": "2.4.17 Tiene buenas prácticas de manipulación de los alimentos",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 1
+      }
+    },
+    "preg2418": {
+      "nombre": "2.4.18 Tiene espacio destinado para la post cosecha",
+      "puntos": 0,
+      "respuesta": {
+        "label": "No",
+        "value": "1",
+        "puntaje": 0
+      },
+      "subPreg2418": {
+        "nombre": "¿Cual?",
+        "respuesta": {}
+      }
+    },
+    "preg2419": {
+      "nombre": "2.4.19 ¿Existe control de calidad?",
+      "puntos": 3,
+      "items": [
+        {
+          "nombre": "a) Lavado, agua potable",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.6
+          }
+        },
+        {
+          "nombre": "b) Selección",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.6
+          }
+        },
+        {
+          "nombre": "d) Clasificación",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.6
+          }
+        },
+        {
+          "nombre": "e) Peso",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.6
+          }
+        },
+        {
+          "nombre": "f) Transporte en gavetas",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.6
+          }
+        }
+      ]
+    },
+    "preg2420": {
+      "nombre": "2.4.20 ¿Cómo presenta sus productos ?",
+      "puntos": 0.8,
+      "items": [
+        {
+          "nombre": "a) Atado",
+          "respuesta": {
+            "label": "No",
+            "value": "1",
+            "puntaje": 0
+          }
+        },
+        {
+          "nombre": "b) Enfundado",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.16
+          }
+        },
+        {
+          "nombre": "c) En mallas",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.16
+          }
+        },
+        {
+          "nombre": "d) En tarrinas",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.16
+          }
+        },
+        {
+          "nombre": "e) Al granel",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.16
+          }
+        },
+        {
+          "nombre": "f) Empacado al vacio",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.16
+          }
+        }
+      ]
+    },
+    "preg2421": {
+      "nombre": "2.4.21 En caso de procesamiento de alimentos, observar, si realiza buenas prácticas de manipulación de alimentos (BPM) y, si dispone de espacios adecuados y  utensilios limpios.",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 1
+      }
+    },
+    "preg2422": {
+      "nombre": "2.4.22 ¿Cuenta con bodega para productos cosechados?",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 1
+      }
+    },
+    "preg2423": {
+      "nombre": "2.4.23 Número de especies (1000 m2 a 2000 m2 2 especies  (más de 2000m2 3 especies)",
+      "puntos": 0.3,
+      "especieA": [
+        {
+          "especie": {
+            "label": "Gallinas",
+            "value": "0",
+            "puntaje": 0.33,
+            "disable": true
+          },
+          "pequenios": "12",
+          "adultos": "28",
+          "cantidadEsp": 40,
+          "porcentajeEsp": 100,
+          "disable": false
+        }
+      ],
+      "cantidadTotal": 40
+    },
+    "preg2424": {
+      "nombre": "2.4.24 ¿Que productos de la chacra son destinados a la alimentacion de los animales?",
+      "puntos": 1,
+      "rGranos": {
+        "label": "Chulpi",
+        "value": "7",
+        "puntaje": 0.4
+      },
+      "rPastos": {
+        "label": "Alfalfa",
+        "value": "4",
+        "puntaje": 0.3,
+        "disable": false
+      },
+      "rRestos": {
+        "label": "Frutas",
+        "value": "1",
+        "puntaje": 0.3
+      }
+    },
+    "preg2425": {
+      "nombre": "2.4.25 ¿Dispone de una infraestructura para los siguientes animales?",
+      "puntos": 2.4,
+      "items": [
+        {
+          "nombre": "Cuyes",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.6
+          }
+        },
+        {
+          "nombre": "Chanchos",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.6
+          }
+        },
+        {
+          "nombre": "Gallinas",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.6
+          }
+        },
+        {
+          "nombre": "Vacas",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.6
+          }
+        }
+      ],
+      "subPreg2425": {
+        "nombre": "Otros",
+        "respuesta": ""
+      }
+    },
+    "preg2426": {
+      "nombre": "2.4.26 Coloca barreras sanitarias (Plantas amargas, Cal a la entrada de los galpones o establos)",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 1
+      }
+    },
+    "preg2427": {
+      "nombre": "2.4.27 ¿Cada cuánto tiempo limpia los establecimientos de los animales?",
+      "puntos": 0.3,
+      "respuesta": {
+        "label": "Cada 2 o 3 meses",
+        "value": "2",
+        "puntaje": 0.25
+      }
+    },
+    "preg2428": {
+      "nombre": "2.4.28 ¿Usa remedios caseros para curar a los animales?",
+      "puntos": 0,
+      "respuesta": {
+        "label": "No",
+        "value": "1",
+        "puntaje": 0
+      }
+    },
+    "preg2429": {
+      "nombre": "2.4.29 ¿Cosecha el estiércol de los animales?",
+      "puntos": 0,
+      "respuesta": {
+        "label": "No",
+        "value": "1",
+        "puntaje": 0
+      }
+    },
+    "encabezadoPreg2430": {
+      "nombre": "Subsistemas riego-humedad",
+      "puntos": 0,
+      "encaPreg2430": {
+        "nombre": "¿Conoce usted de donde viene el agua de riego?",
+        "respuesta": {
+          "label": "Si",
+          "value": "0",
+          "puntaje": 0
+        }
+      },
+      "subPregEnca2430": {
+        "nombre": "Nombre de la fuente:",
+        "respuesta": {}
+      }
+    },
+    "preg2430": {
+      "nombre": "2.4.30 Que actividades realiza la junta de riego para proteger  las fuentes de agua.",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Reforestación",
+        "value": "0",
+        "puntaje": 1
+      }
+    },
+    "preg2431": {
+      "nombre": "2.4.31 ¿Qué acciones realizan para  el manejo de la basura en su vivienda.?",
+      "puntos": 1,
+      "items": [
+        {
+          "nombre": "a) Orgánica :",
+          "respuesta": {
+            "label": "Abono",
+            "value": "1",
+            "puntaje": 0.5
+          }
+        },
+        {
+          "nombre": "b) Inorgánica:",
+          "respuesta": {
+            "label": "Quema",
+            "value": "1",
+            "puntaje": 0.5
+          }
+        }
+      ]
+    },
+    "preg2432": {
+      "nombre": "2.4.32 ¿Cada cuánto tiempo tiene agua en su parcela?",
+      "puntos": 1.5,
+      "respuesta": {
+        "label": "c/ 2 días",
+        "value": "1",
+        "puntaje": 0.75
+      },
+      "subPreg2432": {
+        "nombre": "¿Tiene reservorio?",
+        "respuesta": {
+          "label": "Reservorio comunitario",
+          "value": "1",
+          "puntaje": 0.75
+        }
+      }
+    },
+    "preg2433": {
+      "nombre": "2.4.33 En caso de contar con riego ¿Cuenta con sistema de riego tecnificado?",
+      "puntos": 1.5,
+      "respuesta": {
+        "label": "Goteo",
+        "value": "1",
+        "puntaje": 1.5
+      }
+    },
+    "preg2434": {
+      "nombre": "2.4.34 En caso de contar con riego por inundación ¿Qué tipo de prácticas realiza para evitar la erosión?",
+      "puntos": 0.8,
+      "respuesta": {
+        "label": "Zurcos a nivel ",
+        "value": "1",
+        "puntaje": 0.75
+      }
+    },
+    "preg2435": {
+      "nombre": "2.4.35 En caso de contar con poco riego ¿Qué tipo de práctica de cosecha de agua realiza?",
+      "puntos": 0.8,
+      "respuesta": {
+        "label": "Costrucción de curvas a nivel",
+        "value": "1",
+        "puntaje": 0.75
+      }
+    },
+    "preg2436": {
+      "nombre": "2.4.36 ¿Qué prácticas realiza usted para retener la humedad en el suelo? 1 práctica realizada?",
+      "puntos": 1.5,
+      "respuesta": {
+        "label": "Colchon o Mulch",
+        "value": "0",
+        "puntaje": 1.5
+      }
+    },
+    "preg2437": {
+      "nombre": "2.4.37 En caso de no contar con riego ¿Qué tipo de práctica de cosecha de agua práctica?",
+      "puntos": 2,
+      "respuesta": {
+        "label": "Zanjas de Infiltración",
+        "value": "1",
+        "puntaje": 2
+      }
+    },
+    "preg2438": {
+      "nombre": "2.4.38 En caso de no contar con riego ¿Qué tipo de abono aplica para mantener humedo el suelo?",
+      "puntos": 2,
+      "respuesta": {
+        "label": "Humus",
+        "value": "1",
+        "puntaje": 2
+      }
+    },
+    "preg2439": {
+      "nombre": "2.4.39 Su cultivo es:",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Estacional",
+        "value": "0",
+        "puntaje": 1
+      }
+    },
+    "preg2440": {
+      "nombre": "2.4.40 En caso de no contar con riego ¿Qué tipo de práctica de cosecha de agua realiza.",
+      "puntos": 0,
+      "respuesta": {}
+    },
+    "preg2441": {
+      "nombre": "2.4.40 ¿Qué prácticas realiza  usted. para retener la humedad en el suelo?",
+      "puntos": 2,
+      "respuesta": {
+        "label": "Cobertura con pastos",
+        "value": "1",
+        "puntaje": 2
+      }
+    }
+  },
+  "dimensionEconomica": {
+    "nombre": "2.5 Dimensión Economica 15 Puntos",
+    "puntajeTotal": 3.6,
+    "preg251": {
+      "nombre": "2.5.1 ¿Cómo sabe si gana o pierde en su chacra?",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Tiene cuaderno de apuntes",
+        "value": 1,
+        "puntaje": 0.5
+      },
+      "subpreg": {
+        "nombre": "¿Considera usted que la producción agroecológica es rentable?",
+        "respuesta": {
+          "label": "Si",
+          "value": 0,
+          "puntaje": 0.5
+        },
+        "porque": "azazz"
+      }
+    },
+    "preg252": {
+      "nombre": "2.5.2 ¿Cuántos rubros son los que más comercializa?",
+      "puntos": 0.8,
+      "rubros": [
+        {
+          "productos": {
+            "label": "Granos",
+            "value": 2,
+            "puntaje": 0.8,
+            "disable": true
+          },
+          "autoconsumo": "5",
+          "canasta": "3",
+          "feria": "3",
+          "ingresosSemanales": "10",
+          "pieFinca": "9",
+          "trueque": "4"
+        }
+      ]
+    },
+    "preg253": {
+      "nombre": "2.5.3 ¿Cuáles son los productos procesados que usted elabora para consumo o venta?",
+      "puntos": 0.3,
+      "prodProcesados": [
+        {
+          "productos": {
+            "label": "Mermeladas",
+            "value": "5",
+            "puntaje": 0.33,
+            "disable": true
+          },
+          "otrosProductos": "",
+          "prodUtiliza": "Frutilla",
+          "insumosFuera": "envases "
+        }
+      ],
+      "subpreg": {
+        "nombre": "¿Su organización o comunidad tiene caja de ahorro y crédito?",
+        "respuesta": {
+          "label": "No",
+          "value": 0,
+          "puntaje": 0
+        }
+      },
+      "subpreg2": {
+        "nombre": "¿Para qué activad hace creditos?",
+        "respuesta": {
+          "label": "Ganaderia",
+          "value": 1,
+          "puntaje": 0
+        }
+      }
+    },
+    "preg254": {
+      "nombre": "¿Qué actividad  desea hacer para mejorar la feria?",
+      "puntos": 0,
+      "respuesta": {
+        "label": "Incentivar al productor/a",
+        "value": 0,
+        "puntaje": 0
+      }
+    },
+    "preg255": {
+      "nombre": "2.5.5 ¿De los ingresos que obtiene por venta de productos, en que los invierte?",
+      "puntos": 0.5,
+      "canastaFamiliar": [
+        {
+          "productos": {
+            "label": "Salud",
+            "value": 1,
+            "puntaje": 0.25
+          },
+          "porcentaje": "4"
+        }
+      ],
+      "Insumos": [
+        {
+          "productos": {
+            "label": "Compra de animales",
+            "value": 2,
+            "puntaje": 0.25
+          },
+          "porcentaje": "4"
+        }
+      ]
+    },
+    "preg256": {
+      "nombre": "2.5.6 ¿En el último año, cuántos consumidores fieles o frecuentes ha identificado?",
+      "puntos": 1,
+      "consumidoresIdentificados": [
+        {
+          "nombreConsumidor": "xssx",
+          "lugarProcedencia": "xdcdw",
+          "productoCompra": {
+            "label": "Frutas",
+            "value": 1,
+            "puntaje": 0
+          }
+        }
+      ]
+    }
+  },
+  "dimensionSocialCulturalPolitica": {
+    "dimensionPolitica21": {
+      "nombre": "2.1 DIMENSIÓN POLÍTICA",
+      "puntajeTotal": 4.6,
+      "preg211": {
+        "nombre": "2.1.1¿Qué políticas agrarias que defiendan y apoyen a los  productores agroecológicos conoce?",
+        "valor": 0,
+        "puntos": 1,
+        "respuesta": {
+          "label": "Ley Orgánica De Recursos Hídricos, Usos Y Aprovechamiento Del Agua",
+          "value": "3",
+          "puntaje": 1
+        }
+      },
+      "preg212": {
+        "nombre": "2.1.2¿Usted ha participado en la construcción de leyes y ordenanzas locales o nacionales?",
+        "valor": 0,
+        "puntos": 1,
+        "respuesta": {
+          "label": "Si",
+          "value": "1",
+          "puntaje": 1
+        }
+      },
+      "preg213": {
+        "nombre": "2.1.3. ¿Porqué decidió producir agroecológicamente en su chacra?",
+        "puntos": 0.6,
+        "items": [
+          {
+            "nombre": "Por Salud",
+            "respuesta": {
+              "label": "Si",
+              "value": "1",
+              "puntaje": 0.2
+            }
+          },
+          {
+            "nombre": "Por el uso de Químicos",
+            "respuesta": {
+              "label": "No",
+              "value": "0",
+              "puntaje": 0
+            }
+          },
+          {
+            "nombre": "Para Generar Ingresos",
+            "respuesta": {
+              "label": "Si",
+              "value": "1",
+              "puntaje": 0.2
+            }
+          },
+          {
+            "nombre": "Por cuidar el ambiente",
+            "respuesta": {
+              "label": "No",
+              "value": "0",
+              "puntaje": 0
+            }
+          },
+          {
+            "nombre": "Producción de Alimentos Sanos",
+            "respuesta": {
+              "label": "Si",
+              "value": "1",
+              "puntaje": 0.2
+            }
+          }
+        ]
+      },
+      "preg214": {
+        "nombre": "2.1.4. ¿Cómo garantiza la soberanía alimentaria en su chacra?",
+        "puntos": 1,
+        "items": [
+          {
+            "nombre": "Tener y Sembrar Semillas",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.5
+            }
+          },
+          {
+            "nombre": "Diversidad de Productos",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.5
+            }
+          }
+        ]
+      },
+      "preg215": {
+        "nombre": "2.1.5 Conoce usted, qué es soberania alimentaria?",
+        "valor": 0,
+        "puntos": 1,
+        "respuesta": {
+          "label": "Si",
+          "value": "0",
+          "puntaje": 1
+        }
+      }
+    },
+    "dimensionSocioOrganizativa22": {
+      "nombre": " 2.2  DIMENSIÓN SOCIO-ORGANIZATIVA",
+      "puntajeTotal": 4.5,
+      "preg221": {
+        "nombre": "2.2.1¿Qué hace el productor y/o su familia para fortalecer a la organización agroecológica a la que pertenece?",
+        "puntos": 1,
+        "items": [
+          {
+            "nombre": "Reuniones",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.25
+            }
+          },
+          {
+            "nombre": "Capacitaciones",
+            "respuesta": {}
+          },
+          {
+            "nombre": "Mingas",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.25
+            }
+          },
+          {
+            "nombre": "Participación en ferias",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.25
+            }
+          },
+          {
+            "nombre": "Aportes y comisiones",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.25
+            }
+          },
+          {
+            "nombre": "Respetar acuerdos y resoluciones",
+            "respuesta": {}
+          }
+        ]
+      },
+      "preg222": {
+        "nombre": "2.2.2¿Ha ocupado algún cargo en la organización agroecológica o comunitaria?",
+        "Puntos": 0,
+        "valor": 0,
+        "respuesta": {
+          "label": "No",
+          "value": "0",
+          "puntaje": 0
+        },
+        "subPreg222": {
+          "respuesta": {}
+        }
+      },
+      "preg223": {
+        "nombre": "2.2.3 ¿Cómo usted se siente realizando producción agroecológica?",
+        "puntos": 1,
+        "items": [
+          {
+            "nombre": "Respeta el ingreso económico por las ventas de sus productos",
+            "respuesta": {
+              "label": "Satisfecho",
+              "value": "0",
+              "puntaje": 0.25
+            }
+          },
+          {
+            "nombre": "Respecto a la carga de trabajo",
+            "respuesta": {
+              "label": "Poco Satisfecho",
+              "value": "1",
+              "puntaje": 0.25
+            }
+          },
+          {
+            "nombre": "Respecto a la unión familiar",
+            "respuesta": {
+              "label": "Satisfecho",
+              "value": "0",
+              "puntaje": 0.25
+            }
+          },
+          {
+            "nombre": "Respecto a la calidad de vida",
+            "respuesta": {
+              "label": "Satisfecho",
+              "value": "0",
+              "puntaje": 0.25
+            }
+          }
+        ]
+      },
+      "preg224": {
+        "puntos": 0.3,
+        "incentivados": [
+          {
+            "nombre": "sxsxs",
+            "lugar": "swswx",
+            "Parentesco": "Madre",
+            "pertOrganz": "Si",
+            "value": "0",
+            "puntaje": 0.25
+          }
+        ]
+      },
+      "preg225": {
+        "nombre": "2.2.5 ¿Participa el productor y/o su familia en capacitaciones ? Señale cuáles.",
+        "puntos": 0.4,
+        "items": [
+          {
+            "nombre": "Producción Agroecológica",
+            "respuesta": {
+              "label": "Si",
+              "value": "1",
+              "puntaje": 0.1
+            }
+          },
+          {
+            "nombre": "Manejos de Suelos",
+            "respuesta": {
+              "label": "Si",
+              "value": "1",
+              "puntaje": 0.1
+            }
+          },
+          {
+            "nombre": "Procesamiento de Alimentos",
+            "respuesta": {
+              "label": "No",
+              "value": "0",
+              "puntaje": 0
+            }
+          },
+          {
+            "nombre": "Cosecha y Postcosecha",
+            "respuesta": {
+              "label": "No",
+              "value": "0",
+              "puntaje": 0
+            }
+          },
+          {
+            "nombre": "Comercialización Asociativa",
+            "respuesta": {
+              "label": "No",
+              "value": "0",
+              "puntaje": 0
+            }
+          },
+          {
+            "nombre": "Registro y costo de Producción",
+            "respuesta": {
+              "label": "No",
+              "value": "0",
+              "puntaje": 0
+            }
+          },
+          {
+            "nombre": "Político y Liderazgo",
+            "respuesta": {
+              "label": "Si",
+              "value": "1",
+              "puntaje": 0.1
+            }
+          },
+          {
+            "nombre": "Rol de Dirigentes",
+            "respuesta": {
+              "label": "No",
+              "value": "0",
+              "puntaje": 0
+            }
+          },
+          {
+            "nombre": "Gira de Observación",
+            "respuesta": {
+              "label": "Si",
+              "value": "1",
+              "puntaje": 0.1
+            }
+          },
+          {
+            "nombre": "Seguimiento Mensual o Trimestral",
+            "respuesta": {
+              "label": "No",
+              "value": "0",
+              "puntaje": 0
+            }
+          }
+        ]
+      },
+      "preg226": {
+        "nombre": "2.2.6 ¿De los temas capacitados cuáles  ha puesto en práctica ?",
+        "puntos": 1.8,
+        "items": [
+          {
+            "nombre": "Cortinas rompevientos",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.25
+            }
+          },
+          {
+            "nombre": "Elaboración de bioles y abonos",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.25
+            }
+          },
+          {
+            "nombre": "Procesamiento de Alimentos",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.25
+            }
+          },
+          {
+            "nombre": "Cosecha y postcosecha",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.25
+            }
+          },
+          {
+            "nombre": "Registros de producción",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.25
+            }
+          },
+          {
+            "nombre": "Infraestructura adecuada para animales",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.25
+            }
+          },
+          {
+            "nombre": "Manejo de semillas",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.25
+            }
+          },
+          {
+            "nombre": "Podas en frutales o arbustos",
+            "respuesta": {
+              "label": "No",
+              "value": "1",
+              "puntaje": 0
+            }
+          }
+        ]
+      },
+      "preg227": "Si",
+      "preg228": {
+        "nombre": "",
+        "puntos": 0,
+        "respuesta": {
+          "label": "No",
+          "value": "0",
+          "puntaje": 0
+        },
+        "subPreg228": {
+          "nombre": "",
+          "respuesta": {}
+        }
+      }
+    },
+    "dimensionCultural23": {
+      "nombre": "2.3 DIMENSIÓN CULTURAL",
+      "puntajeTotal": 4,
+      "preg231": {
+        "nombre": "2.3.1 ¿Conoce en que fase lunar estamos?",
+        "puntos": 1,
+        "respuesta": {
+          "label": "Si",
+          "value": "0",
+          "puntaje": 0.5
+        },
+        "subPregunta231": {
+          "respuesta": {
+            "label": "Luna Cuarta Creciente",
+            "value": "1",
+            "puntaje": 0.5
+          }
+        },
+        "faseLunar": []
+      },
+      "preg232": {
+        "nombre": "2.3.2 ¿Práctica la minga familiar con su grupo u organización?",
+        "valor": 0,
+        "puntos": 0,
+        "respuesta": {
+          "label": "No",
+          "value": "1",
+          "puntaje": 0
+        }
+      },
+      "preg233": {
+        "nombre": "2.3.3 ¿Mencione 4 plantas medicinales y que dolencia cura?.",
+        "puntos": 0.5,
+        "plantasC": [
+          {
+            "plantaMedic": {
+              "label": "Arrayan",
+              "value": "0",
+              "puntaje": 0.5,
+              "disable": true
+            },
+            "cura": "Diarrea"
+          }
+        ]
+      },
+      "preg234": {
+        "nombre": "2.3.4 ¿Qué semillas ancestrales o nativas tiene en la chacra? Máximo 4",
+        "puntos": 0.5,
+        "respuesta": [
+          {
+            "label": "Arbeja",
+            "value": "2",
+            "puntaje": 0.5,
+            "disable": true
+          }
+        ]
+      },
+      "preg234Opcional": {
+        "nombre": "Agregar más semillas (opcional)",
+        "respuesta": []
+      },
+      "preg235": {
+        "nombre": "2.3.5 ¿Cómo mantiene sus semillas?",
+        "puntos": 1,
+        "respuesta": {
+          "label": "Selección de semillas",
+          "value": "2",
+          "puntaje": 1
+        }
+      },
+      "preg236": {
+        "nombre": "2.3.6 ¿En qué actividades práctica el Randy-randy?",
+        "puntos": 1,
+        "items": [
+          {
+            "nombre": "Seleccione",
+            "respuesta": {
+              "label": "Deshierba",
+              "value": "1",
+              "puntaje": 0.33
+            }
+          },
+          {
+            "nombre": "Seleccione",
+            "respuesta": {
+              "label": "Siembra",
+              "value": "0",
+              "puntaje": 0.33
+            }
+          },
+          {
+            "nombre": "Seleccione",
+            "respuesta": {
+              "label": "Deshierba",
+              "value": "1",
+              "puntaje": 0.33
+            }
+          }
+        ]
+      }
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "660d7fa5a90db56107a9793c"
+  },
+  "datosVeedor": {
+    "nombre": "Amdres Agtidulce",
+    "cedula": "1234567892",
+    "organizacionPert": "Pueblo Kayambi"
+  },
+  "datosGenerales": {
+    "nombre": "Ramones",
+    "edad": "29",
+    "cedula": "1234567892",
+    "fecha": "2024-04-03",
+    "instruccion": "Universitaria",
+    "jefeHogar": "Si",
+    "numHombres": 1,
+    "numMujeres": 0,
+    "numHijos": 1,
+    "telefono": "0987361547",
+    "correo": "amdres@gmail.com",
+    "ubiChacra": [
+      {
+        "provincia": "Pichincha",
+        "canton": "Cayambe",
+        "parroquia": "Juan Montalvo",
+        "comunidad": "Sigsal",
+        "barrio": "Sigsal",
+        "coordenadas": {
+          "latitud": "62719462538",
+          "longitud": "726482645284",
+          "altura": "2300"
+        },
+        "zona": "Urbano",
+        "clave": "726"
+      }
+    ],
+    "organizacionPert": "Pueblo Kayambi",
+    "aniosCultiv": "4",
+    "numVeedurias": "3",
+    "produtCertif": "Si",
+    "tiposTerrenos": [
+      {
+        "tipTerreno": "Terreno Arrendado",
+        "terrenosRiego": "Si",
+        "areaTerreno": "900",
+        "perimetroTotal": "900",
+        "metroSembrado": "900",
+        "nivelInclinacion": "2"
+      }
+    ],
+    "totalMetrosCuadrados": 900
+  },
+  "dimensionEcologica": {
+    "nombre": " 2.4 DIMENSIÓN ECOLÓGICA 65 puntos",
+    "puntajeTotal": 47.9,
+    "preg241": {
+      "nombre": "2.4.1 Mapa parlante (diseño predial) actualizado. Verificar ",
+      "valor": 0,
+      "puntos": 2,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 2,
+        "disable": null
+      }
+    },
+    "preg242": {
+      "nombre": "2.4.2 Metros total de perimetro por lotes",
+      "puntos": 7,
+      "totalPeri": 900,
+      "totalMetroSembrado": 900,
+      "porcentajeMetrSembrados": 0
+    },
+    "preg243": {
+      "nombre": "2.4.3 ¿Realiza las podas? ",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 0.5,
+        "disable": null
+      },
+      "subpreg243": {
+        "nombre": "¿Qué hace con el material podado?",
+        "respuesta": {
+          "label": "Alimento para animales",
+          "value": "1",
+          "puntaje": 0.5,
+          "disable": null
+        }
+      },
+      "subsistemasSuelo": {
+        "nombre": "Indicar pendiente del terreno por lotes (%)"
+      }
+    },
+    "preg244": {
+      "nombre": "2.4.4 ¿Realiza prácticas de conservación de suelo en toda la parcela?",
+      "puntos": 1.5,
+      "respuesta": {
+        "label": "Terreno plano",
+        "value": "0",
+        "puntaje": 0.2,
+        "disable": null
+      },
+      "subPreg244": {
+        "nombre": "Especifique cada práctica",
+        "items": [
+          {
+            "nombre": "1.Terrazas de banco",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.18,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "2. Terrazas de formación lenta",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.18,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "3. Terrazas individuales",
+            "respuesta": {
+              "label": "No",
+              "value": "1",
+              "puntaje": 0,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "4. Barreras vivas",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.18,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "5. Zanjas de infiltración y desviación",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.18,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "6. Incorporación de abonos verdes",
+            "respuesta": {
+              "label": "No",
+              "value": "1",
+              "puntaje": 0,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "7. Dique de control de cárcavas",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.18,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "8. Surco en contorno",
+            "respuesta": {
+              "label": "No",
+              "value": "1",
+              "puntaje": 0,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "9. Acolchado",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.18,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "10. Incorpora abonos orgánicos (Bocashi,compost, humus, estiércoles etc)",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.18,
+              "disable": null
+            }
+          }
+        ]
+      }
+    },
+    "preg245": {
+      "nombre": "2.4.5 ¿Con que herramienta prepara el suelo de su parcela?",
+      "puntos": 1,
+      "respuesta": {
+        "label": " Motocultor",
+        "value": "1",
+        "puntaje": 1,
+        "disable": null
+      },
+      "subPreg245": {
+        "nombre": "¿Qué tipo de erosión del suelo presenta la parcela ? (Observación del veedor/a)",
+        "items": [
+          {
+            "nombre": "• Alta.- Es evidente arrastre de suelo por el viento, presencia de cárcavas y canalillos",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "• Media.- Erosión evidente pero poca el sistema agroforestal   amortigua la pérdida del suelo",
+            "respuesta": {
+              "label": "No",
+              "value": "1",
+              "puntaje": 0,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "• Baja.- No hay mayores señales de erosión.",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0,
+              "disable": null
+            }
+          }
+        ]
+      }
+    },
+    "preg246": {
+      "nombre": "2.4.6 ¿Produce abonos en su parcela?: (observación del veedor)",
+      "puntos": 1.3,
+      "items": [
+        {
+          "nombre": "Majadeo",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.25,
+            "disable": null
+          }
+        },
+        {
+          "nombre": "Compost",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.25,
+            "disable": null
+          }
+        },
+        {
+          "nombre": "Bocashi",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.25,
+            "disable": null
+          }
+        },
+        {
+          "nombre": "Humus",
+          "respuesta": {
+            "label": "No",
+            "value": "1",
+            "puntaje": 0,
+            "disable": null
+          }
+        },
+        {
+          "nombre": "Colchón",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.25,
+            "disable": null
+          }
+        },
+        {
+          "nombre": "Desecho de podas",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.25,
+            "disable": null
+          }
+        },
+        {
+          "nombre": "Abonos verdes",
+          "respuesta": {
+            "label": "No",
+            "value": "1",
+            "puntaje": 0,
+            "disable": null
+          }
+        },
+        {
+          "nombre": "Otros",
+          "respuesta": {
+            "label": "No",
+            "value": "1",
+            "puntaje": 0,
+            "disable": null
+          }
+        }
+      ],
+      "subPreg246": {
+        "nombre": "¿Cúales?",
+        "respuesta": {
+          "label": null,
+          "value": null,
+          "puntaje": 0,
+          "disable": null
+        }
+      }
+    },
+    "preg247": {
+      "nombre": "2.4.7 ¿Cuánto de Materia orgánica tiene su suelo?.(Ver análisis de suelo)",
+      "puntos": 2,
+      "respuesta": "6",
+      "subPreg2471": {
+        "nombre": "¿Cuánto de abono produce en la parcela?",
+        "cantidad": 3,
+        "medidaDePeso": {
+          "label": "Arroba",
+          "value": "1",
+          "puntaje": 0.5,
+          "disable": null
+        },
+        "tiempo": {
+          "label": "Por mes",
+          "value": "0",
+          "puntaje": 0.5,
+          "disable": null
+        }
+      },
+      "subPreg2472": {
+        "nombre": "¿Cuánto de abono compra para abonar su parcela al año?",
+        "cuantoAboCompra": {
+          "label": "100 a 500",
+          "value": "1",
+          "puntaje": 0.5,
+          "disable": null
+        },
+        "medidaDePeso": {
+          "label": "Sacos",
+          "value": "4",
+          "puntaje": 0.5,
+          "disable": null
+        }
+      }
+    },
+    "preg248": {
+      "nombre": "2.4.8 ¿Elabora y aplica biofertilizantes en la parcela?",
+      "puntos": 2,
+      "cual": [
+        {
+          "cual": {
+            "label": "Té de hierbas medicinales",
+            "value": "2",
+            "puntaje": 0.67,
+            "disable": true
+          },
+          "cantidad": "300",
+          "frecuencia": "c/ mes"
+        },
+        {
+          "cual": {
+            "label": "Caldo de ceniza",
+            "value": "4",
+            "puntaje": 0.67,
+            "disable": true
+          },
+          "cantidad": "330",
+          "frecuencia": "c/20 días"
+        },
+        {
+          "cual": {
+            "label": "Té de frutas",
+            "value": "1",
+            "puntaje": 0.67,
+            "disable": true
+          },
+          "cantidad": "746",
+          "frecuencia": "c/2 meses"
+        }
+      ]
+    },
+    "preg249": {
+      "nombre": "2.4.9 ¿Cosecha nitrógeno del aire?",
+      "puntos": 0,
+      "respuesta": {
+        "label": "No",
+        "value": "1",
+        "puntaje": 0,
+        "disable": null
+      },
+      "subPreg249": {
+        "nombre": "¿Cómo?",
+        "respuesta": {
+          "label": null,
+          "value": null,
+          "puntaje": 0,
+          "disable": null
+        }
+      }
+    },
+    "preg2410": {
+      "nombre": "2.4.10 Qué productos produce: Hortalizas, Frutales, Pastos, Cereales, plantas medicinales?",
+      "puntos": 1.2,
+      "areaProductosSembrados": 900,
+      "hortalizas": [
+        {
+          "producto": {
+            "label": "Cebolla larga",
+            "value": "7",
+            "puntaje": 0.2,
+            "disable": true
+          },
+          "area": "100",
+          "medida": "m2",
+          "cantidad": "600",
+          "semillaOPlantula": "Libras",
+          "tiempoSiembra": "c/30 días",
+          "tiempoCosecha": "Mensual",
+          "puntaje": 0.2,
+          "porcentaje": 0
+        },
+        {
+          "producto": {
+            "label": "Champiñones",
+            "value": "12",
+            "puntaje": 0.2,
+            "disable": true
+          },
+          "area": "500",
+          "medida": "m2",
+          "cantidad": "700",
+          "semillaOPlantula": "Plántulas",
+          "tiempoSiembra": "c/45 días",
+          "tiempoCosecha": "Mensual",
+          "puntaje": 0,
+          "porcentaje": 0
+        }
+      ],
+      "frutas": [
+        {
+          "producto": {
+            "label": "Frutilla",
+            "value": "8",
+            "puntaje": 0.2,
+            "disable": true
+          },
+          "area": "100",
+          "medida": "m2",
+          "cantidad": "800",
+          "semillaOPlantula": "Quintales",
+          "tiempoSiembra": "Semanal",
+          "tiempoCosecha": "Quincenal",
+          "puntaje": 0.2,
+          "porcentaje": 0
+        }
+      ],
+      "pastos": [
+        {
+          "producto": {
+            "label": "Ray Grass Perenne",
+            "value": "1",
+            "puntaje": 0.25,
+            "disable": true
+          },
+          "area": "100",
+          "medida": "m2",
+          "cantidad": "970",
+          "semillaOPlantula": "Plántulas",
+          "tiempoSiembra": "Mensual",
+          "tiempoCosecha": "Quincenal",
+          "puntaje": 0.2,
+          "porcentaje": 0
+        }
+      ],
+      "cerealesYSeudocere": [
+        {
+          "producto": {
+            "label": "Chochos",
+            "value": "5",
+            "puntaje": 0.2,
+            "disable": true
+          },
+          "area": "80",
+          "medida": "m2",
+          "cantidad": "400",
+          "semillaOPlantula": "Libras",
+          "tiempoSiembra": "Temporada",
+          "tiempoCosecha": "Mensual",
+          "puntaje": 0.2,
+          "porcentaje": 0
+        }
+      ],
+      "plantasMedicin": [
+        {
+          "producto": {
+            "label": "Hierba Luisa",
+            "value": "5",
+            "puntaje": 0.1,
+            "disable": true
+          },
+          "area": "20",
+          "medida": "m2",
+          "cantidad": "40",
+          "semillaOPlantula": "Quintales",
+          "tiempoSiembra": "Quincenal",
+          "tiempoCosecha": "Temporada",
+          "puntaje": 0.2,
+          "porcentaje": 0
+        }
+      ],
+      "otrosOpcional": [],
+      "hortalizasTotal": 0.4,
+      "frutasTotal": 0.2,
+      "pastosTotal": 0.3,
+      "cerealeTotal": 0.2,
+      "planMedTotal": 0.1,
+      "opcionalesTotal": 0,
+      "metrosHortaliza": 600,
+      "metrosFrutas": 100,
+      "metrosPastos": 100,
+      "metrosCereales": 80,
+      "metrosPlantasMed": 20,
+      "metrosOpcionales": 0,
+      "totalProductos": 1.2,
+      "totalPorcentaje": 0
+    },
+    "preg2411": {
+      "nombre": "2.4.11 ¿Cuenta con un espacio adecuado o bodega para insumos, herramientas, equipos y/o maquinaria?",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 1,
+        "disable": null
+      }
+    },
+    "preg2412": {
+      "nombre": "2.4.12 ¿Cuales son los principales problemas en los cultivos?",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Deficiencia nutricional",
+        "value": "3",
+        "puntaje": 1,
+        "disable": null
+      }
+    },
+    "preg2413": {
+      "nombre": "2.4.13 ¿Tiene un registro de sus cultivos?",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 1,
+        "disable": null
+      }
+    },
+    "preg2414": {
+      "nombre": "2.4.14 ¿Hace rotación de cultivos?",
+      "puntos": 0,
+      "respuesta": {
+        "label": "No",
+        "value": "1",
+        "puntaje": 0,
+        "disable": null
+      }
+    },
+    "preg2415": {
+      "nombre": "2.4.15 ¿Realiza asociación de cultivos?",
+      "puntos": 0,
+      "respuesta": {
+        "label": "No",
+        "value": "1",
+        "puntaje": 0,
+        "disable": null
+      }
+    },
+    "preg2416": {
+      "nombre": "2.4.16 ¿Elabora y aplica biocontroladores contra plagas y enfermedades?",
+      "puntos": 2,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 1,
+        "disable": null
+      },
+      "subPreg2416": {
+        "nombre": "¿Qué producto?",
+        "respuesta": {
+          "label": null,
+          "value": null,
+          "puntaje": 0,
+          "disable": null
+        }
+      },
+      "subSubPreg2416": {
+        "nombre": "¿Qué plaga o enfermedad controla?",
+        "respuesta": {
+          "label": "Plagas",
+          "value": "1",
+          "puntaje": 1,
+          "disable": null
+        }
+      }
+    },
+    "preg2417": {
+      "nombre": "2.4.17 Tiene buenas prácticas de manipulación de los alimentos",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 1,
+        "disable": null
+      }
+    },
+    "preg2418": {
+      "nombre": "2.4.18 Tiene espacio destinado para la post cosecha",
+      "puntos": 0,
+      "respuesta": {
+        "label": "No",
+        "value": "1",
+        "puntaje": 0,
+        "disable": null
+      },
+      "subPreg2418": {
+        "nombre": "¿Cual?",
+        "respuesta": {
+          "label": null,
+          "value": null,
+          "puntaje": 0,
+          "disable": null
+        }
+      }
+    },
+    "preg2419": {
+      "nombre": "2.4.19 ¿Existe control de calidad?",
+      "puntos": 2.4,
+      "items": [
+        {
+          "nombre": "a) Lavado, agua potable",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.6,
+            "disable": null
+          }
+        },
+        {
+          "nombre": "b) Selección",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.6,
+            "disable": null
+          }
+        },
+        {
+          "nombre": "d) Clasificación",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.6,
+            "disable": null
+          }
+        },
+        {
+          "nombre": "e) Peso",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.6,
+            "disable": null
+          }
+        },
+        {
+          "nombre": "f) Transporte en gavetas",
+          "respuesta": {
+            "label": "No",
+            "value": "1",
+            "puntaje": 0,
+            "disable": null
+          }
+        }
+      ]
+    },
+    "preg2420": {
+      "nombre": "2.4.20 ¿Cómo presenta sus productos ?",
+      "puntos": 0.8,
+      "items": [
+        {
+          "nombre": "a) Atado",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.16,
+            "disable": null
+          }
+        },
+        {
+          "nombre": "b) Enfundado",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.16,
+            "disable": null
+          }
+        },
+        {
+          "nombre": "c) En mallas",
+          "respuesta": {
+            "label": "No",
+            "value": "1",
+            "puntaje": 0,
+            "disable": null
+          }
+        },
+        {
+          "nombre": "d) En tarrinas",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.16,
+            "disable": null
+          }
+        },
+        {
+          "nombre": "e) Al granel",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.16,
+            "disable": null
+          }
+        },
+        {
+          "nombre": "f) Empacado al vacio",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.16,
+            "disable": null
+          }
+        }
+      ]
+    },
+    "preg2421": {
+      "nombre": "2.4.21 En caso de procesamiento de alimentos, observar, si realiza buenas prácticas de manipulación de alimentos (BPM) y, si dispone de espacios adecuados y  utensilios limpios.",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 1,
+        "disable": null
+      }
+    },
+    "preg2422": {
+      "nombre": "2.4.22 ¿Cuenta con bodega para productos cosechados?",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 1,
+        "disable": null
+      }
+    },
+    "preg2423": {
+      "nombre": "2.4.23 Número de especies (1000 m2 a 2000 m2 2 especies  (más de 2000m2 3 especies)",
+      "puntos": 0.3,
+      "especieA": [
+        {
+          "especie": {
+            "label": "Caballos",
+            "value": "10",
+            "puntaje": 0.33,
+            "disable": true
+          },
+          "pequenios": 4,
+          "adultos": 8,
+          "cantidadEsp": 12,
+          "porcentajeEsp": 100,
+          "disable": false
+        }
+      ],
+      "cantidadTotal": 12
+    },
+    "preg2424": {
+      "nombre": "2.4.24 ¿Que productos de la chacra son destinados a la alimentacion de los animales?",
+      "puntos": 1,
+      "rGranos": {
+        "label": "Habas",
+        "value": "9",
+        "puntaje": 0.4,
+        "disable": null
+      },
+      "rPastos": {
+        "label": "Alfalfa",
+        "value": "4",
+        "puntaje": 0.3,
+        "disable": false
+      },
+      "rRestos": {
+        "label": "Hortalizas",
+        "value": "0",
+        "puntaje": 0.3,
+        "disable": null
+      }
+    },
+    "preg2425": {
+      "nombre": "2.4.25 ¿Dispone de una infraestructura para los siguientes animales?",
+      "puntos": 1.8,
+      "items": [
+        {
+          "nombre": "Cuyes",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.6,
+            "disable": null
+          }
+        },
+        {
+          "nombre": "Chanchos",
+          "respuesta": {
+            "label": "No",
+            "value": "1",
+            "puntaje": 0,
+            "disable": null
+          }
+        },
+        {
+          "nombre": "Gallinas",
+          "respuesta": {
+            "label": "No",
+            "value": "1",
+            "puntaje": 0,
+            "disable": null
+          }
+        },
+        {
+          "nombre": "Vacas",
+          "respuesta": {
+            "label": "Si",
+            "value": "0",
+            "puntaje": 0.6,
+            "disable": null
+          }
+        }
+      ],
+      "subPreg2425": {
+        "nombre": "Otros",
+        "respuesta": "Choclo"
+      }
+    },
+    "preg2426": {
+      "nombre": "2.4.26 Coloca barreras sanitarias (Plantas amargas, Cal a la entrada de los galpones o establos)",
+      "puntos": 0,
+      "respuesta": {
+        "label": "No",
+        "value": "1",
+        "puntaje": 0,
+        "disable": null
+      }
+    },
+    "preg2427": {
+      "nombre": "2.4.27 ¿Cada cuánto tiempo limpia los establecimientos de los animales?",
+      "puntos": 0.5,
+      "respuesta": {
+        "label": "Cada mes",
+        "value": "1",
+        "puntaje": 0.5,
+        "disable": null
+      }
+    },
+    "preg2428": {
+      "nombre": "2.4.28 ¿Usa remedios caseros para curar a los animales?",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Si",
+        "value": "0",
+        "puntaje": 1,
+        "disable": null
+      }
+    },
+    "preg2429": {
+      "nombre": "2.4.29 ¿Cosecha el estiércol de los animales?",
+      "puntos": 0,
+      "respuesta": {
+        "label": "No",
+        "value": "1",
+        "puntaje": 0,
+        "disable": null
+      }
+    },
+    "encabezadoPreg2430": {
+      "nombre": "Subsistemas riego-humedad",
+      "puntos": 0,
+      "encaPreg2430": {
+        "nombre": "¿Conoce usted de donde viene el agua de riego?",
+        "respuesta": {
+          "label": null,
+          "value": null,
+          "puntaje": 0,
+          "disable": null
+        }
+      },
+      "subPregEnca2430": {
+        "nombre": "Nombre de la fuente:",
+        "respuesta": {
+          "label": null,
+          "value": null,
+          "puntaje": 0,
+          "disable": null
+        }
+      }
+    },
+    "preg2430": {
+      "nombre": "2.4.30 Que actividades realiza la junta de riego para proteger  las fuentes de agua.",
+      "puntos": 0,
+      "respuesta": {
+        "label": null,
+        "value": null,
+        "puntaje": 0,
+        "disable": null
+      }
+    },
+    "preg2431": {
+      "nombre": "2.4.31 ¿Qué acciones realizan para  el manejo de la basura en su vivienda.?",
+      "puntos": 0,
+      "items": [
+        {
+          "nombre": "a) Orgánica :",
+          "respuesta": {
+            "label": null,
+            "value": null,
+            "puntaje": 0,
+            "disable": null
+          }
+        },
+        {
+          "nombre": "b) Inorgánica:",
+          "respuesta": {
+            "label": null,
+            "value": null,
+            "puntaje": 0,
+            "disable": null
+          }
+        }
+      ]
+    },
+    "preg2432": {
+      "nombre": "2.4.32 ¿Cada cuánto tiempo tiene agua en su parcela?",
+      "puntos": 1.5,
+      "respuesta": {
+        "label": "c/ 15 días",
+        "value": "3",
+        "puntaje": 0.75,
+        "disable": null
+      },
+      "subPreg2432": {
+        "nombre": "¿Tiene reservorio?",
+        "respuesta": {
+          "label": "Tiene reservorio familiar",
+          "value": "0",
+          "puntaje": 0.75,
+          "disable": null
+        }
+      }
+    },
+    "preg2433": {
+      "nombre": "2.4.33 En caso de contar con riego ¿Cuenta con sistema de riego tecnificado?",
+      "puntos": 1.5,
+      "respuesta": {
+        "label": "Microaspersión",
+        "value": "0",
+        "puntaje": 1.5,
+        "disable": null
+      }
+    },
+    "preg2434": {
+      "nombre": "2.4.34 En caso de contar con riego por inundación ¿Qué tipo de prácticas realiza para evitar la erosión?",
+      "puntos": 0.8,
+      "respuesta": {
+        "label": "Curvas a nivel",
+        "value": "0",
+        "puntaje": 0.75,
+        "disable": null
+      }
+    },
+    "preg2435": {
+      "nombre": "2.4.35 En caso de contar con poco riego ¿Qué tipo de práctica de cosecha de agua realiza?",
+      "puntos": 0.8,
+      "respuesta": {
+        "label": "Zanjas de infiltraciones de agua",
+        "value": "2",
+        "puntaje": 0.75,
+        "disable": null
+      }
+    },
+    "preg2436": {
+      "nombre": "2.4.36 ¿Qué prácticas realiza usted para retener la humedad en el suelo? 1 práctica realizada?",
+      "puntos": 1.5,
+      "respuesta": {
+        "label": "Cobertura de pasto",
+        "value": "1",
+        "puntaje": 1.5,
+        "disable": null
+      }
+    },
+    "preg2437": {
+      "nombre": "2.4.37 En caso de no contar con riego ¿Qué tipo de práctica de cosecha de agua práctica?",
+      "puntos": 2,
+      "respuesta": {
+        "label": "Zanjas de Infiltración",
+        "value": "1",
+        "puntaje": 2,
+        "disable": null
+      }
+    },
+    "preg2438": {
+      "nombre": "2.4.38 En caso de no contar con riego ¿Qué tipo de abono aplica para mantener humedo el suelo?",
+      "puntos": 2,
+      "respuesta": {
+        "label": "Humus",
+        "value": "1",
+        "puntaje": 2,
+        "disable": null
+      }
+    },
+    "preg2439": {
+      "nombre": "2.4.39 Su cultivo es:",
+      "puntos": 1,
+      "respuesta": {
+        "label": "Permanente",
+        "value": "1",
+        "puntaje": 1,
+        "disable": null
+      }
+    },
+    "preg2440": {
+      "nombre": "2.4.40 En caso de no contar con riego ¿Qué tipo de práctica de cosecha de agua realiza.",
+      "puntos": 0,
+      "respuesta": {
+        "label": null,
+        "value": null,
+        "puntaje": 0,
+        "disable": null
+      }
+    },
+    "preg2441": {
+      "nombre": "2.4.40 ¿Qué prácticas realiza  usted. para retener la humedad en el suelo?",
+      "puntos": 2,
+      "respuesta": {
+        "label": "Zanjas de infiltración",
+        "value": "2",
+        "puntaje": 2,
+        "disable": null
+      }
+    }
+  },
+  "dimensionEconomica": {
+    "nombre": "2.5 Dimensión Economica 15 Puntos",
+    "puntajeTotal": 2.8,
+    "preg251": {
+      "nombre": "2.5.1 ¿Cómo sabe si gana o pierde en su chacra?",
+      "puntos": 0.5,
+      "respuesta": {
+        "label": "Tiene cuaderno de apuntes",
+        "value": 1,
+        "puntaje": 0.5,
+        "disable": null
+      },
+      "subpreg": {
+        "nombre": "¿Considera usted que la producción agroecológica es rentable?",
+        "respuesta": {
+          "label": "No",
+          "value": 1,
+          "puntaje": 0,
+          "disable": null
+        },
+        "porque": ""
+      }
+    },
+    "preg252": {
+      "nombre": "2.5.2 ¿Cuántos rubros son los que más comercializa?",
+      "puntos": 0.8,
+      "rubros": [
+        {
+          "productos": {
+            "label": "Comidas preparadas",
+            "value": 7,
+            "puntaje": 0.8,
+            "disable": true
+          },
+          "ingresosSemanales": 80,
+          "pieFinca": 70,
+          "feria": 4,
+          "canasta": 6,
+          "autoconsumo": 45,
+          "trueque": 20
+        }
+      ]
+    },
+    "preg253": {
+      "nombre": "2.5.3 ¿Cuáles son los productos procesados que usted elabora para consumo o venta?",
+      "puntos": 0,
+      "prodProcesados": [],
+      "subpreg": {
+        "nombre": "¿Su organización o comunidad tiene caja de ahorro y crédito?",
+        "respuesta": {
+          "label": "No",
+          "value": 0,
+          "puntaje": 0,
+          "disable": null
+        }
+      },
+      "subpreg2": {
+        "nombre": "¿Para qué activad hace creditos?",
+        "respuesta": {
+          "label": "Vivienda",
+          "value": 2,
+          "puntaje": 0,
+          "disable": null
+        }
+      }
+    },
+    "preg254": {
+      "nombre": "¿Qué actividad  desea hacer para mejorar la feria?",
+      "puntos": 0,
+      "respuesta": {
+        "label": "Charlas",
+        "value": 1,
+        "puntaje": 0,
+        "disable": null
+      }
+    },
+    "preg255": {
+      "nombre": "2.5.5 ¿De los ingresos que obtiene por venta de productos, en que los invierte?",
+      "puntos": 0.5,
+      "canastaFamiliar": [
+        {
+          "productos": {
+            "label": "Salud",
+            "value": 1,
+            "puntaje": 0.25,
+            "disable": null
+          },
+          "porcentaje": 70
+        }
+      ],
+      "Insumos": [
+        {
+          "productos": {
+            "label": "Compra de animales",
+            "value": 2,
+            "puntaje": 0.25,
+            "disable": null
+          },
+          "porcentaje": 10
+        }
+      ]
+    },
+    "preg256": {
+      "nombre": "2.5.6 ¿En el último año, cuántos consumidores fieles o frecuentes ha identificado?",
+      "puntos": 1,
+      "consumidoresIdentificados": [
+        {
+          "nombreConsumidor": "Alberto",
+          "lugarProcedencia": "Cerro",
+          "productoCompra": {
+            "label": "Productos cárnicos, lácteos, huevos",
+            "value": 2,
+            "puntaje": 0
+          }
+        }
+      ]
+    }
+  },
+  "dimensionSocialCulturalPolitica": {
+    "dimensionPolitica21": {
+      "nombre": "2.1 DIMENSIÓN POLÍTICA",
+      "puntajeTotal": 3.6,
+      "preg211": {
+        "nombre": "2.1.1¿Qué políticas agrarias que defiendan y apoyen a los  productores agroecológicos conoce?",
+        "valor": 0,
+        "puntos": 1,
+        "respuesta": {
+          "label": "Ley Orgánica De Recursos Hídricos, Usos Y Aprovechamiento Del Agua",
+          "value": "3",
+          "puntaje": 1,
+          "disable": null
+        }
+      },
+      "preg212": {
+        "nombre": "2.1.2¿Usted ha participado en la construcción de leyes y ordenanzas locales o nacionales?",
+        "valor": 0,
+        "puntos": 0,
+        "respuesta": {
+          "label": "No",
+          "value": "0",
+          "puntaje": 0,
+          "disable": null
+        }
+      },
+      "preg213": {
+        "nombre": "2.1.3. ¿Porqué decidió producir agroecológicamente en su chacra?",
+        "puntos": 0.6,
+        "items": [
+          {
+            "nombre": "Por Salud",
+            "respuesta": {
+              "label": "Si",
+              "value": "1",
+              "puntaje": 0.2,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Por el uso de Químicos",
+            "respuesta": {
+              "label": "No",
+              "value": "0",
+              "puntaje": 0,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Para Generar Ingresos",
+            "respuesta": {
+              "label": "Si",
+              "value": "1",
+              "puntaje": 0.2,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Por cuidar el ambiente",
+            "respuesta": {
+              "label": "No",
+              "value": "0",
+              "puntaje": 0,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Producción de Alimentos Sanos",
+            "respuesta": {
+              "label": "Si",
+              "value": "1",
+              "puntaje": 0.2,
+              "disable": null
+            }
+          }
+        ]
+      },
+      "preg214": {
+        "nombre": "2.1.4. ¿Cómo garantiza la soberanía alimentaria en su chacra?",
+        "puntos": 1,
+        "items": [
+          {
+            "nombre": "Tener y Sembrar Semillas",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.5,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Diversidad de Productos",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.5,
+              "disable": null
+            }
+          }
+        ]
+      },
+      "preg215": {
+        "nombre": "2.1.5 Conoce usted, qué es soberania alimentaria?",
+        "valor": 0,
+        "puntos": 1,
+        "respuesta": {
+          "label": "Si",
+          "value": "0",
+          "puntaje": 1,
+          "disable": null
+        }
+      }
+    },
+    "dimensionSocioOrganizativa22": {
+      "nombre": " 2.2  DIMENSIÓN SOCIO-ORGANIZATIVA",
+      "puntajeTotal": 5.4,
+      "preg221": {
+        "nombre": "2.2.1¿Qué hace el productor y/o su familia para fortalecer a la organización agroecológica a la que pertenece?",
+        "puntos": 1,
+        "items": [
+          {
+            "nombre": "Reuniones",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.25,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Capacitaciones",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.25,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Mingas",
+            "respuesta": {
+              "label": "No",
+              "value": "1",
+              "puntaje": 0,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Participación en ferias",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.25,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Aportes y comisiones",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.25,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Respetar acuerdos y resoluciones",
+            "respuesta": {
+              "label": "No",
+              "value": "1",
+              "puntaje": 0,
+              "disable": null
+            }
+          }
+        ]
+      },
+      "preg222": {
+        "nombre": "2.2.2¿Ha ocupado algún cargo en la organización agroecológica o comunitaria?",
+        "Puntos": 1,
+        "valor": 0,
+        "respuesta": {
+          "label": "Si",
+          "value": "1",
+          "puntaje": 0.5,
+          "disable": null
+        },
+        "subPreg222": {
+          "respuesta": {
+            "label": "Administrador/a",
+            "value": "5",
+            "puntaje": 0.5,
+            "disable": null
+          }
+        }
+      },
+      "preg223": {
+        "nombre": "2.2.3 ¿Cómo usted se siente realizando producción agroecológica?",
+        "puntos": 1,
+        "items": [
+          {
+            "nombre": "Respeta el ingreso económico por las ventas de sus productos",
+            "respuesta": {
+              "label": "Satisfecho",
+              "value": "0",
+              "puntaje": 0.25,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Respecto a la carga de trabajo",
+            "respuesta": {
+              "label": "Satisfecho",
+              "value": "0",
+              "puntaje": 0.25,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Respecto a la unión familiar",
+            "respuesta": {
+              "label": "Satisfecho",
+              "value": "0",
+              "puntaje": 0.25,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Respecto a la calidad de vida",
+            "respuesta": {
+              "label": "Satisfecho",
+              "value": "0",
+              "puntaje": 0.25,
+              "disable": null
+            }
+          }
+        ]
+      },
+      "preg224": {
+        "nombre": null,
+        "puntos": 0.3,
+        "incentivados": [
+          {
+            "nombre": "Alexis",
+            "lugar": "Cangahua",
+            "Parentesco": "Hermano/a",
+            "pertOrganz": "No",
+            "value": "0",
+            "puntaje": 0.25
+          }
+        ]
+      },
+      "preg225": {
+        "nombre": "2.2.5 ¿Participa el productor y/o su familia en capacitaciones ? Señale cuáles.",
+        "puntos": 0.8,
+        "items": [
+          {
+            "nombre": "Producción Agroecológica",
+            "respuesta": {
+              "label": "Si",
+              "value": "1",
+              "puntaje": 0.1,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Manejos de Suelos",
+            "respuesta": {
+              "label": "Si",
+              "value": "1",
+              "puntaje": 0.1,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Procesamiento de Alimentos",
+            "respuesta": {
+              "label": "Si",
+              "value": "1",
+              "puntaje": 0.1,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Cosecha y Postcosecha",
+            "respuesta": {
+              "label": "Si",
+              "value": "1",
+              "puntaje": 0.1,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Comercialización Asociativa",
+            "respuesta": {
+              "label": "Si",
+              "value": "1",
+              "puntaje": 0.1,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Registro y costo de Producción",
+            "respuesta": {
+              "label": "Si",
+              "value": "1",
+              "puntaje": 0.1,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Político y Liderazgo",
+            "respuesta": {
+              "label": "No",
+              "value": "0",
+              "puntaje": 0,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Rol de Dirigentes",
+            "respuesta": {
+              "label": "No",
+              "value": "0",
+              "puntaje": 0,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Gira de Observación",
+            "respuesta": {
+              "label": "Si",
+              "value": "1",
+              "puntaje": 0.1,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Seguimiento Mensual o Trimestral",
+            "respuesta": {
+              "label": "Si",
+              "value": "1",
+              "puntaje": 0.1,
+              "disable": null
+            }
+          }
+        ]
+      },
+      "preg226": {
+        "nombre": "2.2.6 ¿De los temas capacitados cuáles  ha puesto en práctica ?",
+        "puntos": 1.3,
+        "items": [
+          {
+            "nombre": "Cortinas rompevientos",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.25,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Elaboración de bioles y abonos",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.25,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Procesamiento de Alimentos",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.25,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Cosecha y postcosecha",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.25,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Registros de producción",
+            "respuesta": {
+              "label": "Si",
+              "value": "0",
+              "puntaje": 0.25,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Infraestructura adecuada para animales",
+            "respuesta": {
+              "label": "No",
+              "value": "1",
+              "puntaje": 0,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Manejo de semillas",
+            "respuesta": {
+              "label": "No",
+              "value": "1",
+              "puntaje": 0,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Podas en frutales o arbustos",
+            "respuesta": {
+              "label": "No",
+              "value": "1",
+              "puntaje": 0,
+              "disable": null
+            }
+          }
+        ]
+      },
+      "preg227": "Si",
+      "preg228": {
+        "nombre": "",
+        "puntos": 0,
+        "respuesta": {
+          "label": "No",
+          "value": "0",
+          "puntaje": 0,
+          "disable": null
+        },
+        "subPreg228": {
+          "nombre": "",
+          "respuesta": {
+            "label": null,
+            "value": null,
+            "puntaje": 0,
+            "disable": null
+          }
+        }
+      }
+    },
+    "dimensionCultural23": {
+      "nombre": "2.3 DIMENSIÓN CULTURAL",
+      "puntajeTotal": 6,
+      "preg231": {
+        "nombre": "2.3.1 ¿Conoce en que fase lunar estamos?",
+        "puntos": 1,
+        "respuesta": {
+          "label": "Si",
+          "value": "0",
+          "puntaje": 0.5,
+          "disable": null
+        },
+        "subPregunta231": {
+          "respuesta": {
+            "label": "Luna Cuarta Creciente",
+            "value": "1",
+            "puntaje": 0.5,
+            "disable": null
+          }
+        },
+        "faseLunar": [
+          {
+            "lunaNuevaTierna": "Deshierbas",
+            "lunaCuartoCreciente": "Preparación de suelo",
+            "lunaLlena": "Siembra",
+            "lunaMenguante": "Cirugía de animales"
+          }
+        ]
+      },
+      "preg232": {
+        "nombre": "2.3.2 ¿Práctica la minga familiar con su grupo u organización?",
+        "valor": 0,
+        "puntos": 0,
+        "respuesta": {
+          "label": "No",
+          "value": "1",
+          "puntaje": 0,
+          "disable": null
+        }
+      },
+      "preg233": {
+        "nombre": "2.3.3 ¿Mencione 4 plantas medicinales y que dolencia cura?.",
+        "puntos": 1,
+        "plantasC": [
+          {
+            "plantaMedic": {
+              "label": "Llanten",
+              "value": "10",
+              "puntaje": 0.5,
+              "disable": true
+            },
+            "cura": "Dolor de Garganta"
+          },
+          {
+            "plantaMedic": {
+              "label": "Cola de Caballo",
+              "value": "3",
+              "puntaje": 0.5,
+              "disable": true
+            },
+            "cura": "Dolor de estómago"
+          }
+        ]
+      },
+      "preg234": {
+        "nombre": "2.3.4 ¿Qué semillas ancestrales o nativas tiene en la chacra? Máximo 4",
+        "puntos": 2,
+        "respuesta": [
+          {
+            "label": "Chayote",
+            "value": "6",
+            "puntaje": 0.5,
+            "resultado": 0,
+            "disable": true
+          },
+          {
+            "label": "Arbeja",
+            "value": "2",
+            "puntaje": 0.5,
+            "resultado": 0,
+            "disable": true
+          },
+          {
+            "label": "Cilantro",
+            "value": "10",
+            "puntaje": 0.5,
+            "resultado": 0,
+            "disable": true
+          },
+          {
+            "label": "Canguil",
+            "value": "4",
+            "puntaje": 0.5,
+            "resultado": 0,
+            "disable": true
+          }
+        ]
+      },
+      "preg234Opcional": {
+        "nombre": "Agregar más semillas (opcional)",
+        "respuesta": [
+          {
+            "label": "Chia",
+            "value": "7",
+            "puntaje": 0.5,
+            "resultado": 0,
+            "disable": true
+          }
+        ]
+      },
+      "preg235": {
+        "nombre": "2.3.5 ¿Cómo mantiene sus semillas?",
+        "puntos": 1,
+        "respuesta": {
+          "label": "Selección de semillas",
+          "value": "2",
+          "puntaje": 1,
+          "disable": null
+        }
+      },
+      "preg236": {
+        "nombre": "2.3.6 ¿En qué actividades práctica el Randy-randy?",
+        "puntos": 1,
+        "items": [
+          {
+            "nombre": "Seleccione",
+            "respuesta": {
+              "label": "Siembra",
+              "value": "0",
+              "puntaje": 0.33,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Seleccione",
+            "respuesta": {
+              "label": "Cosecha",
+              "value": "3",
+              "puntaje": 0.33,
+              "disable": null
+            }
+          },
+          {
+            "nombre": "Seleccione",
+            "respuesta": {
+              "label": "Otros",
+              "value": "4",
+              "puntaje": 0.33,
+              "disable": null
+            }
+          }
+        ]
+      }
+    }
+  }
+}]
