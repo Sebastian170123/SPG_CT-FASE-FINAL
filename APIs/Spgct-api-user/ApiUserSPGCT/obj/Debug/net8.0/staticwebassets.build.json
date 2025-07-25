@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "ssLqw5qrkbT3TnGeR32goAawMAyINMmJ1Zd0ZrafYtQ=",
+  "Source": "ApiUserSPGCT",
+  "BasePath": "_content/ApiUserSPGCT",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

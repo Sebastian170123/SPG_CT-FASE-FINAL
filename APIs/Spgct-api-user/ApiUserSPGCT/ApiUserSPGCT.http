@@ -1,0 +1,6 @@
+@ApiUserSPGCT_HostAddress = http://localhost:5155
+
+GET {{ApiUserSPGCT_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
